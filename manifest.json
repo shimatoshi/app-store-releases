@@ -66,6 +66,15 @@
       "description": "自作アプリの一覧・更新管理アプリ",
       "versions": [
         {
+          "versionCode": 2,
+          "versionName": "2.0",
+          "apkUrl": "https://github.com/shimatoshi/app-store-releases/releases/download/app-store-v2/app-store.apk",
+          "size": 107227,
+          "sha256": "30d681523fa00a738d58376c91eef4314514a531a308827352ec5016b11f1d21",
+          "changelog": "WebView+React UI化。バージョン履歴表示・PWAタブ追加",
+          "date": "2026-07-21"
+        },
+        {
           "versionCode": 1,
           "versionName": "1.0",
           "apkUrl": "https://github.com/shimatoshi/app-store-releases/releases/download/app-store-v1/app-store.apk",
