@@ -26,11 +26,12 @@ NAMES = {
     "kiwi-engine": "kiwi-engine",
     "app-store": "Store",
 }
+ICON_BASE = "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/"
 ICONS = {
-    "map-app": "🗾",
-    "flickjp": "⌨️",
-    "kiwi-engine": "📚",
-    "app-store": "🛍️",
+    "map-app": ICON_BASE + "map-app.png",
+    "flickjp": ICON_BASE + "flickjp.png",
+    "kiwi-engine": ICON_BASE + "kiwi-engine.png",
+    "app-store": ICON_BASE + "app-store.png",
 }
 DESCRIPTIONS = {
     "map-app": "OsmAnd代替のオフライン地図アプリ",

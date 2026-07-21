@@ -5,7 +5,7 @@
       "type": "apk",
       "packageName": "com.flickjp",
       "name": "FlickJP",
-      "icon": "⌨️",
+      "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/flickjp.png",
       "description": "自作フリック日本語IME",
       "versions": [
         {
@@ -24,7 +24,7 @@
       "type": "apk",
       "packageName": "net.localhost.kiwiengine",
       "name": "kiwi-engine",
-      "icon": "📚",
+      "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/kiwi-engine.png",
       "description": "自作ZIMオフライン書庫ビューワー",
       "versions": [
         {
@@ -43,7 +43,7 @@
       "type": "apk",
       "packageName": "net.localhost.mapapp",
       "name": "Map",
-      "icon": "🗾",
+      "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/map-app.png",
       "description": "OsmAnd代替のオフライン地図アプリ",
       "versions": [
         {
@@ -62,7 +62,7 @@
       "type": "apk",
       "packageName": "net.localhost.appstore",
       "name": "Store",
-      "icon": "🛍️",
+      "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/app-store.png",
       "description": "自作アプリの一覧・更新管理アプリ",
       "versions": [
         {
@@ -98,7 +98,7 @@
       "id": "transit-pwa",
       "type": "pwa",
       "name": "乗換案内",
-      "icon": "🚉",
+      "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/transit-pwa.png",
       "description": "オフライン乗換案内PWA - Wikidata駅データ+Dijkstra経路検索",
       "url": "https://transit-pwa.vercel.app"
     },
@@ -106,7 +106,7 @@
       "id": "news-pwa",
       "type": "pwa",
       "name": "News",
-      "icon": "📰",
+      "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/news-pwa.png",
       "description": "ニュースPWA",
       "url": "https://news-pwa-rho.vercel.app"
     },
@@ -114,7 +114,7 @@
       "id": "taskbox",
       "type": "pwa",
       "name": "taskbox",
-      "icon": "📋",
+      "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/taskbox.png",
       "description": "Offline-first task box PWA",
       "url": "https://taskbox.vercel.app"
     },
@@ -122,7 +122,7 @@
       "id": "teganuma-zukan",
       "type": "pwa",
       "name": "手賀沼図鑑",
-      "icon": "🐟",
+      "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/teganuma-zukan.png",
       "description": "手賀沼水系生物相DB",
       "url": "https://teganuma-zukan.vercel.app"
     },
@@ -130,7 +130,7 @@
       "id": "organicmap-plus",
       "type": "pwa",
       "name": "OrganicMap+",
-      "icon": "🗺️",
+      "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/organicmap-plus.png",
       "description": "日本全国の交通・名所データビューワー",
       "url": "https://organicmap-plus.vercel.app"
     },
@@ -138,7 +138,7 @@
       "id": "pokechampions-calc",
       "type": "pwa",
       "name": "ポケチャン ダメ計",
-      "icon": "⚔️",
+      "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/pokechampions-calc.png",
       "description": "ポケモンチャンピオンズ ダメージ計算機",
       "url": "https://pokechampions-calc.vercel.app"
     },
@@ -146,7 +146,7 @@
       "id": "url-board",
       "type": "pwa",
       "name": "URL board",
-      "icon": "🔗",
+      "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/url-board.png",
       "description": "各プロジェクトの動的URL(トンネル等)一覧",
       "url": "https://url-board.vercel.app"
     },
@@ -154,7 +154,7 @@
       "id": "shimatube",
       "type": "pwa",
       "name": "ShimaTube NEO",
-      "icon": "📺",
+      "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/shimatube.png",
       "description": "YouTube代替プロキシ",
       "url": "https://shimatube.vercel.app"
     },
@@ -162,7 +162,7 @@
       "id": "dmonline2",
       "type": "pwa",
       "name": "デュエマオンライン2",
-      "icon": "🃏",
+      "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/dmonline2.png",
       "description": "React+Pythonバックエンドのカードゲーム",
       "url": "https://dmonline2.vercel.app"
     },
@@ -170,7 +170,7 @@
       "id": "research-zim",
       "type": "pwa",
       "name": "Research ZIM Factory",
-      "icon": "🔬",
+      "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/research-zim.png",
       "description": "AI調査→ZIM生成",
       "url": "https://research-zim.vercel.app"
     }
