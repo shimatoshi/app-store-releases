@@ -72,6 +72,24 @@
       "description": "自作アプリの一覧・更新管理アプリ",
       "versions": [
         {
+          "versionCode": 6,
+          "versionName": "2.4",
+          "apkUrl": "https://github.com/shimatoshi/app-store-releases/releases/download/app-store-v6/app-store.apk",
+          "size": 115500,
+          "sha256": "e45731feb94922686632fbb3abf3f680ed4b8f6dbbe7b358df234667ee990e33",
+          "changelog": "アプリ内チャットボット追加(Claude Code連携、Pixel5サーバー経由)。詳細説明・プレビュー画像欄の構造は前バージョンから継続",
+          "date": "2026-07-21"
+        },
+        {
+          "versionCode": 5,
+          "versionName": "2.3",
+          "apkUrl": "https://github.com/shimatoshi/app-store-releases/releases/download/app-store-v5/app-store.apk",
+          "size": 111323,
+          "sha256": "c2eb891bd22b0d9a899fa68d03a09da88d771b31655ad0acda433045a7b282f4",
+          "changelog": "アプリ詳細に詳細説明・プレビュー画像欄を追加(構造のみ、素材は順次追加予定)",
+          "date": "2026-07-21"
+        },
+        {
           "versionCode": 4,
           "versionName": "2.2",
           "apkUrl": "https://github.com/shimatoshi/app-store-releases/releases/download/app-store-v4/app-store.apk",
