@@ -32,6 +32,17 @@
       "size": 17027,
       "sha256": "13db837c679fe088777379d2021e7cccdacc4d93a31e1190a0b6451f5bae1fa3",
       "changelog": "自作アプリの一覧・更新管理アプリ"
+    },
+    {
+      "id": "map-app",
+      "packageName": "net.localhost.mapapp",
+      "name": "Map",
+      "versionCode": 1,
+      "versionName": "1.0",
+      "apkUrl": "https://github.com/shimatoshi/app-store-releases/releases/download/map-app-v1/map-app.apk",
+      "size": 19744476,
+      "sha256": "6860284ff5849c7833318ce60493e7377491d421f619d79812c7c4396188f782",
+      "changelog": "OsmAnd代替のオフライン地図アプリ"
     }
   ]
 }
