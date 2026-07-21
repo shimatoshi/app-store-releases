@@ -66,6 +66,15 @@
       "description": "自作アプリの一覧・更新管理アプリ",
       "versions": [
         {
+          "versionCode": 3,
+          "versionName": "2.1",
+          "apkUrl": "https://github.com/shimatoshi/app-store-releases/releases/download/app-store-v3/app-store.apk",
+          "size": 111323,
+          "sha256": "ec8a0d91a23be705433637b4b843e7feff07d1cb8db17545cc9a82cf6f2d6b4d",
+          "changelog": "デバッグノート追加",
+          "date": "2026-07-21"
+        },
+        {
           "versionCode": 2,
           "versionName": "2.0",
           "apkUrl": "https://github.com/shimatoshi/app-store-releases/releases/download/app-store-v2/app-store.apk",
