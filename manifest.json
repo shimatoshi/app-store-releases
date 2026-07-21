@@ -278,6 +278,46 @@
         }
       ],
       "longDescription": "独自の広告ブロッカーと、ページ内video/audio要素の再生状態を監視するメディア検出、HLS(m3u8)動画のダウンロード機能を備える。全画面動画のネイティブPiP(ホーム移動で小窓化)とバックグラウンド再生にも対応する。それに加えてPWAのインストール/更新/事前ウォームアップ/スケジューリング、ホーム画面ウィジェット(検索バー・フィード記事)、音声検索、ユーザースクリプト実行、オフラインページ保存など、単純なブラウザを超えた機能を多数持つ。"
+    },
+    {
+      "id": "weather-pwa",
+      "type": "pwa",
+      "name": "Weather",
+      "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/weather-pwa.png",
+      "description": "天気PWA",
+      "url": "https://weather-pwa.vercel.app",
+      "category": "情報",
+      "longDescription": "React+Viteで作られたPWA版天気アプリ。vite-plugin-pwaによりオフラインでも起動・キャッシュ表示に対応する。"
+    },
+    {
+      "id": "hexaco-checklist",
+      "type": "pwa",
+      "name": "HEXACOチェックリスト",
+      "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/hexaco-checklist.png",
+      "description": "HEXACO-PI-Rベースの対人分析チェックリスト、オフラインPWA",
+      "url": "https://shimatoshi.github.io/hexaco-checklist/",
+      "category": "情報",
+      "longDescription": "HEXACO-PI-R(誠実性・協調性・情動性等6因子のパーソナリティモデル)に基づくチェックリストで、回答から対人関係の傾向を分析するオフライン対応PWA。GitHub Pagesで静的配信されている。"
+    },
+    {
+      "id": "shimagle",
+      "type": "pwa",
+      "name": "Shima Search",
+      "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/shimagle.png",
+      "description": "オフライン記事保存・検索ツール",
+      "url": "https://offline-library.vercel.app",
+      "category": "生産性",
+      "longDescription": "記事や資料をオフラインに保存し、後から全文検索できるツール。vite-plugin-pwaによるオフライン対応で、ネット接続がない環境でも保存済みコンテンツを閲覧・検索できる。"
+    },
+    {
+      "id": "gen5-battle-platform",
+      "type": "pwa",
+      "name": "Gen5 Battle Platform",
+      "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/gen5-battle-platform.svg",
+      "description": "ポケモンGen5(BW2)対戦コミュニティ向けアプリ",
+      "url": "https://gen5-battle-platform.vercel.app",
+      "category": "ゲーム",
+      "longDescription": "ポケモン第5世代(BW2)対戦コミュニティ向けのフルスタックアプリ。React+Vite+Supabase構成で、対戦トーナメントの自動進行管理や掲示板機能を備え、PWA化されている。"
     }
   ]
 }
