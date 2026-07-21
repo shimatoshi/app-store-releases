@@ -1,0 +1,37 @@
+{
+  "apps": [
+    {
+      "id": "flickjp",
+      "packageName": "com.flickjp",
+      "name": "FlickJP",
+      "versionCode": 7,
+      "versionName": "2.2",
+      "apkUrl": "https://github.com/shimatoshi/app-store-releases/releases/download/flickjp-v7/flickjp.apk",
+      "size": 47838772,
+      "sha256": "e56ba931601e23ab9f54dcdeb84a6641dfb19397c882b2bb676d59a07d1d6448",
+      "changelog": "自作フリック日本語IME"
+    },
+    {
+      "id": "kiwi-engine",
+      "packageName": "net.localhost.kiwiengine",
+      "name": "kiwi-engine",
+      "versionCode": 9,
+      "versionName": "0.9",
+      "apkUrl": "https://github.com/shimatoshi/app-store-releases/releases/download/kiwi-engine-v9/kiwi-engine.apk",
+      "size": 24673782,
+      "sha256": "1fd47d1dcbb0c4ef8ac6094f490c7c4f08efce0d11b516000433e3fef8d4db45",
+      "changelog": "自作ZIMオフライン書庫ビューワー"
+    },
+    {
+      "id": "app-store",
+      "packageName": "net.localhost.appstore",
+      "name": "Store",
+      "versionCode": 1,
+      "versionName": "1.0",
+      "apkUrl": "https://github.com/shimatoshi/app-store-releases/releases/download/app-store-v1/app-store.apk",
+      "size": 17027,
+      "sha256": "13db837c679fe088777379d2021e7cccdacc4d93a31e1190a0b6451f5bae1fa3",
+      "changelog": "自作アプリの一覧・更新管理アプリ"
+    }
+  ]
+}
