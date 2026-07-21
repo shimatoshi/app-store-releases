@@ -147,7 +147,10 @@
       "description": "ニュースPWA",
       "url": "https://news-pwa-rho.vercel.app",
       "category": "情報",
-      "longDescription": "ニュースだけでなく気象庁の天気予報・警報注意報、Open-Meteoの補完データ、潮汐観測所データまで扱う複合PWA。ニュース面はユーザーがRSS/AtomフィードをURL登録でき、フィードURLが不明なサイトでもHTMLから自動発見してパースする。readability.jsにより記事本文抽出のリーダーモードを提供し、データはIndexedDBにキャッシュしてオフライン表示に対応する。"
+      "longDescription": "ニュースだけでなく気象庁の天気予報・警報注意報、Open-Meteoの補完データ、潮汐観測所データまで扱う複合PWA。ニュース面はユーザーがRSS/AtomフィードをURL登録でき、フィードURLが不明なサイトでもHTMLから自動発見してパースする。readability.jsにより記事本文抽出のリーダーモードを提供し、データはIndexedDBにキャッシュしてオフライン表示に対応する。",
+      "screenshots": [
+        "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/news-pwa.png"
+      ]
     },
     {
       "id": "taskbox",
@@ -157,7 +160,10 @@
       "description": "Offline-first task box PWA",
       "url": "https://taskbox.vercel.app",
       "category": "生産性",
-      "longDescription": "IndexedDB保存によるオフラインファーストのタスク管理アプリ。タスクは締切設定可能な「Box」(プロジェクト/カテゴリ)に分類し、サブタスクのツリー構造、色付きラベル(タグ)を持つ。進捗は完了/未完了ではなく0〜5の6段階で専用ダイヤルUIに表示する。ドラッグ&ドロップでの手動並べ替え、フィルタ/ソート、全タスク/Box一覧/ラベル/完了済み/設定の各ページを備える。"
+      "longDescription": "IndexedDB保存によるオフラインファーストのタスク管理アプリ。タスクは締切設定可能な「Box」(プロジェクト/カテゴリ)に分類し、サブタスクのツリー構造、色付きラベル(タグ)を持つ。進捗は完了/未完了ではなく0〜5の6段階で専用ダイヤルUIに表示する。ドラッグ&ドロップでの手動並べ替え、フィルタ/ソート、全タスク/Box一覧/ラベル/完了済み/設定の各ページを備える。",
+      "screenshots": [
+        "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/taskbox.png"
+      ]
     },
     {
       "id": "teganuma-zukan",
@@ -167,7 +173,10 @@
       "description": "手賀沼水系生物相DB",
       "url": "https://teganuma-zukan.vercel.app",
       "category": "情報",
-      "longDescription": "手賀沼・大津川水系で確認された生物の記録を、出典の信頼度階層(学術研究・市民研究団体・個人ブログ/映像・SNS)ごとに集計し「検出頻度スコア」として数値化・ランキング表示するデータベース。単純な階層順位ではなく、少数の強い証拠と大量の弱い証拠のどちらが優勢かをスコアで表現する。種ごとに検出元の内訳、実見バッジ、飼育下由来個体を示すバッジなどが確認できる。"
+      "longDescription": "手賀沼・大津川水系で確認された生物の記録を、出典の信頼度階層(学術研究・市民研究団体・個人ブログ/映像・SNS)ごとに集計し「検出頻度スコア」として数値化・ランキング表示するデータベース。単純な階層順位ではなく、少数の強い証拠と大量の弱い証拠のどちらが優勢かをスコアで表現する。種ごとに検出元の内訳、実見バッジ、飼育下由来個体を示すバッジなどが確認できる。",
+      "screenshots": [
+        "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/teganuma-zukan.png"
+      ]
     },
     {
       "id": "organicmap-plus",
@@ -177,7 +186,10 @@
       "description": "日本全国の交通・名所データビューワー",
       "url": "https://organicmap-plus.vercel.app",
       "category": "地図・移動",
-      "longDescription": "日本全国の駅・交通データと観光名所データをオフラインで閲覧できるビューワー。「交通データ」ビューでは全国10,460駅の路線情報や駅周辺の施設・グルメ・バス停(73万件超のPOI、8ジャンル)を検索・閲覧できる。「名所ガイド」ビューでは47都道府県5,001件の名所を都道府県・市区町村から探索でき、画像や解説が付いている。"
+      "longDescription": "日本全国の駅・交通データと観光名所データをオフラインで閲覧できるビューワー。「交通データ」ビューでは全国10,460駅の路線情報や駅周辺の施設・グルメ・バス停(73万件超のPOI、8ジャンル)を検索・閲覧できる。「名所ガイド」ビューでは47都道府県5,001件の名所を都道府県・市区町村から探索でき、画像や解説が付いている。",
+      "screenshots": [
+        "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/organicmap-plus.png"
+      ]
     },
     {
       "id": "pokechampions-calc",
@@ -187,7 +199,10 @@
       "description": "ポケモンチャンピオンズ ダメージ計算機",
       "url": "https://pokechampions-calc.vercel.app",
       "category": "ゲーム",
-      "longDescription": "「ポケモンチャンピオンズ」向けのダメージ計算機。技・特性・持ち物・能力値を指定したダメージ計算に加え、簡易対戦シミュレーション、手持ちボックス・パーティ管理、対戦記録の保存機能を備える。ポケモン・技データは外部サイトをスクレイピング・加工して収集し、オフライン用ZIM形式にもパッケージ化している。"
+      "longDescription": "「ポケモンチャンピオンズ」向けのダメージ計算機。技・特性・持ち物・能力値を指定したダメージ計算に加え、簡易対戦シミュレーション、手持ちボックス・パーティ管理、対戦記録の保存機能を備える。ポケモン・技データは外部サイトをスクレイピング・加工して収集し、オフライン用ZIM形式にもパッケージ化している。",
+      "screenshots": [
+        "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/pokechampions-calc.png"
+      ]
     },
     {
       "id": "url-board",
@@ -197,7 +212,10 @@
       "description": "各プロジェクトの動的URL(トンネル等)一覧",
       "url": "https://url-board.vercel.app",
       "category": "生産性",
-      "longDescription": "自作の各プロジェクト(トンネル経由で公開しているPWA・バックエンド等)の最新アクセスURLを一覧表示する掲示板アプリ。project-urlsリポジトリのurls.jsonをデータソースとし、頻繁に変わる動的URLと固定URLを区別して表示する。個別プロジェクトの現在のURLを返すAPIを持ち、research-zim等の他アプリがバックエンド接続先の解決に利用している。"
+      "longDescription": "自作の各プロジェクト(トンネル経由で公開しているPWA・バックエンド等)の最新アクセスURLを一覧表示する掲示板アプリ。project-urlsリポジトリのurls.jsonをデータソースとし、頻繁に変わる動的URLと固定URLを区別して表示する。個別プロジェクトの現在のURLを返すAPIを持ち、research-zim等の他アプリがバックエンド接続先の解決に利用している。",
+      "screenshots": [
+        "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/url-board.png"
+      ]
     },
     {
       "id": "shimatube",
@@ -207,7 +225,10 @@
       "description": "YouTube代替プロキシ",
       "url": "https://shimatube.vercel.app",
       "category": "メディア",
-      "longDescription": "YouTube動画を検索・再生できる代替プロキシアプリ。バックエンド(Python)は検索・急上昇・チャンネル情報・再生リスト・関連動画・コメント・HLSストリーミングをそれぞれ専用ハンドラで処理する。Android版はローカルHTTPサーバーを起動してWebViewで表示し、PWA版は同じバックエンドAPIをWeb UIから利用して検索・再生・チャンネル閲覧など一通りの視聴機能を備える。"
+      "longDescription": "YouTube動画を検索・再生できる代替プロキシアプリ。バックエンド(Python)は検索・急上昇・チャンネル情報・再生リスト・関連動画・コメント・HLSストリーミングをそれぞれ専用ハンドラで処理する。Android版はローカルHTTPサーバーを起動してWebViewで表示し、PWA版は同じバックエンドAPIをWeb UIから利用して検索・再生・チャンネル閲覧など一通りの視聴機能を備える。",
+      "screenshots": [
+        "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/shimatube.png"
+      ]
     },
     {
       "id": "dmonline2",
@@ -227,7 +248,10 @@
       "description": "AI調査→ZIM生成",
       "url": "https://research-zim.vercel.app",
       "category": "生産性",
-      "longDescription": "AIによる調査結果を蓄積し、オフライン閲覧用のZIMアーカイブとして書き出すツール兼レポートアーカイブ。分野別フォルダの下に調査レポートを蓄積し、ソースを学術論文・自分のフィールド調査・ネット情報(裏取り済み/未検証)の信頼度別に分類して保存する。HTML+画像をKiwix互換のZIMファイルにパッケージ化するスクリプトを備える。"
+      "longDescription": "AIによる調査結果を蓄積し、オフライン閲覧用のZIMアーカイブとして書き出すツール兼レポートアーカイブ。分野別フォルダの下に調査レポートを蓄積し、ソースを学術論文・自分のフィールド調査・ネット情報(裏取り済み/未検証)の信頼度別に分類して保存する。HTML+画像をKiwix互換のZIMファイルにパッケージ化するスクリプトを備える。",
+      "screenshots": [
+        "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/research-zim.png"
+      ]
     },
     {
       "id": "toshiyuki-note",
@@ -247,7 +271,10 @@
       "description": "としゆきツールズ ポータル",
       "url": "https://toshiyuki-tools.vercel.app",
       "category": "生産性",
-      "longDescription": "ノート・カレンダー・loach(自然言語操作)・push-server(通知)など複数の自作ツールをまとめるランチャー兼アカウント管理アプリ。ツール同士は直接通信せず、共通の「としゆきアカウント」を介してデータをやり取りする設計で、各ツールはローカル優先で読み書きしオンライン時に同期する。"
+      "longDescription": "ノート・カレンダー・loach(自然言語操作)・push-server(通知)など複数の自作ツールをまとめるランチャー兼アカウント管理アプリ。ツール同士は直接通信せず、共通の「としゆきアカウント」を介してデータをやり取りする設計で、各ツールはローカル優先で読み書きしオンライン時に同期する。",
+      "screenshots": [
+        "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/toshiyuki-tools.png"
+      ]
     },
     {
       "id": "wifi-free-map",
@@ -256,7 +283,10 @@
       "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/wifi-free-map.png",
       "description": "SIMなし生存マップ - 全国チェーン別フリーWiFiガイド",
       "url": "https://public-gamma-cyan-89.vercel.app",
-      "category": "地図・移動"
+      "category": "地図・移動",
+      "screenshots": [
+        "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/wifi-free-map.png"
+      ]
     },
     {
       "id": "sniffer-browser",
@@ -287,7 +317,10 @@
       "description": "天気PWA",
       "url": "https://weather-pwa.vercel.app",
       "category": "情報",
-      "longDescription": "React+Viteで作られたPWA版天気アプリ。vite-plugin-pwaによりオフラインでも起動・キャッシュ表示に対応する。"
+      "longDescription": "React+Viteで作られたPWA版天気アプリ。vite-plugin-pwaによりオフラインでも起動・キャッシュ表示に対応する。",
+      "screenshots": [
+        "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/weather-pwa.png"
+      ]
     },
     {
       "id": "hexaco-checklist",
@@ -297,7 +330,10 @@
       "description": "HEXACO-PI-Rベースの対人分析チェックリスト、オフラインPWA",
       "url": "https://shimatoshi.github.io/hexaco-checklist/",
       "category": "情報",
-      "longDescription": "HEXACO-PI-R(誠実性・協調性・情動性等6因子のパーソナリティモデル)に基づくチェックリストで、回答から対人関係の傾向を分析するオフライン対応PWA。GitHub Pagesで静的配信されている。"
+      "longDescription": "HEXACO-PI-R(誠実性・協調性・情動性等6因子のパーソナリティモデル)に基づくチェックリストで、回答から対人関係の傾向を分析するオフライン対応PWA。GitHub Pagesで静的配信されている。",
+      "screenshots": [
+        "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/hexaco-checklist.png"
+      ]
     },
     {
       "id": "shimagle",
@@ -307,7 +343,10 @@
       "description": "オフライン記事保存・検索ツール",
       "url": "https://offline-library.vercel.app",
       "category": "生産性",
-      "longDescription": "記事や資料をオフラインに保存し、後から全文検索できるツール。vite-plugin-pwaによるオフライン対応で、ネット接続がない環境でも保存済みコンテンツを閲覧・検索できる。"
+      "longDescription": "記事や資料をオフラインに保存し、後から全文検索できるツール。vite-plugin-pwaによるオフライン対応で、ネット接続がない環境でも保存済みコンテンツを閲覧・検索できる。",
+      "screenshots": [
+        "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/shimagle.png"
+      ]
     },
     {
       "id": "gen5-battle-platform",
@@ -317,7 +356,10 @@
       "description": "ポケモンGen5(BW2)対戦コミュニティ向けアプリ",
       "url": "https://gen5-battle-platform.vercel.app",
       "category": "ゲーム",
-      "longDescription": "ポケモン第5世代(BW2)対戦コミュニティ向けのフルスタックアプリ。React+Vite+Supabase構成で、対戦トーナメントの自動進行管理や掲示板機能を備え、PWA化されている。"
+      "longDescription": "ポケモン第5世代(BW2)対戦コミュニティ向けのフルスタックアプリ。React+Vite+Supabase構成で、対戦トーナメントの自動進行管理や掲示板機能を備え、PWA化されている。",
+      "screenshots": [
+        "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/gen5-battle-platform.png"
+      ]
     }
   ]
 }
