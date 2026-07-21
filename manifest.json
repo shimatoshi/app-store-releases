@@ -17,7 +17,8 @@
           "changelog": "自作フリック日本語IME",
           "date": "2026-07-21"
         }
-      ]
+      ],
+      "category": "入力・システム"
     },
     {
       "id": "kiwi-engine",
@@ -36,7 +37,8 @@
           "changelog": "自作ZIMオフライン書庫ビューワー",
           "date": "2026-07-21"
         }
-      ]
+      ],
+      "category": "メディア"
     },
     {
       "id": "map-app",
@@ -55,7 +57,8 @@
           "changelog": "OsmAnd代替のオフライン地図アプリ",
           "date": "2026-07-21"
         }
-      ]
+      ],
+      "category": "地図・移動"
     },
     {
       "id": "app-store",
@@ -65,6 +68,15 @@
       "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/app-store.png",
       "description": "自作アプリの一覧・更新管理アプリ",
       "versions": [
+        {
+          "versionCode": 4,
+          "versionName": "2.2",
+          "apkUrl": "https://github.com/shimatoshi/app-store-releases/releases/download/app-store-v4/app-store.apk",
+          "size": 111323,
+          "sha256": "b38747bdb2eb37cab618c91d9d03510ee263d001691ba026af2357e33e047a9d",
+          "changelog": "実アイコン14→17本、カテゴリ絞り込み追加、hero表示のアイコン描画修正",
+          "date": "2026-07-21"
+        },
         {
           "versionCode": 3,
           "versionName": "2.1",
@@ -92,7 +104,8 @@
           "changelog": "初版",
           "date": "2026-07-21"
         }
-      ]
+      ],
+      "category": "生産性"
     },
     {
       "id": "transit-pwa",
@@ -100,7 +113,8 @@
       "name": "乗換案内",
       "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/transit-pwa.png",
       "description": "オフライン乗換案内PWA - Wikidata駅データ+Dijkstra経路検索",
-      "url": "https://transit-pwa.vercel.app"
+      "url": "https://transit-pwa.vercel.app",
+      "category": "地図・移動"
     },
     {
       "id": "news-pwa",
@@ -108,7 +122,8 @@
       "name": "News",
       "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/news-pwa.png",
       "description": "ニュースPWA",
-      "url": "https://news-pwa-rho.vercel.app"
+      "url": "https://news-pwa-rho.vercel.app",
+      "category": "情報"
     },
     {
       "id": "taskbox",
@@ -116,7 +131,8 @@
       "name": "taskbox",
       "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/taskbox.png",
       "description": "Offline-first task box PWA",
-      "url": "https://taskbox.vercel.app"
+      "url": "https://taskbox.vercel.app",
+      "category": "生産性"
     },
     {
       "id": "teganuma-zukan",
@@ -124,7 +140,8 @@
       "name": "手賀沼図鑑",
       "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/teganuma-zukan.png",
       "description": "手賀沼水系生物相DB",
-      "url": "https://teganuma-zukan.vercel.app"
+      "url": "https://teganuma-zukan.vercel.app",
+      "category": "情報"
     },
     {
       "id": "organicmap-plus",
@@ -132,7 +149,8 @@
       "name": "OrganicMap+",
       "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/organicmap-plus.png",
       "description": "日本全国の交通・名所データビューワー",
-      "url": "https://organicmap-plus.vercel.app"
+      "url": "https://organicmap-plus.vercel.app",
+      "category": "地図・移動"
     },
     {
       "id": "pokechampions-calc",
@@ -140,7 +158,8 @@
       "name": "ポケチャン ダメ計",
       "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/pokechampions-calc.png",
       "description": "ポケモンチャンピオンズ ダメージ計算機",
-      "url": "https://pokechampions-calc.vercel.app"
+      "url": "https://pokechampions-calc.vercel.app",
+      "category": "ゲーム"
     },
     {
       "id": "url-board",
@@ -148,7 +167,8 @@
       "name": "URL board",
       "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/url-board.png",
       "description": "各プロジェクトの動的URL(トンネル等)一覧",
-      "url": "https://url-board.vercel.app"
+      "url": "https://url-board.vercel.app",
+      "category": "生産性"
     },
     {
       "id": "shimatube",
@@ -156,7 +176,8 @@
       "name": "ShimaTube NEO",
       "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/shimatube.png",
       "description": "YouTube代替プロキシ",
-      "url": "https://shimatube.vercel.app"
+      "url": "https://shimatube.vercel.app",
+      "category": "メディア"
     },
     {
       "id": "dmonline2",
@@ -164,7 +185,8 @@
       "name": "デュエマオンライン2",
       "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/dmonline2.png",
       "description": "React+Pythonバックエンドのカードゲーム",
-      "url": "https://dmonline2.vercel.app"
+      "url": "https://dmonline2.vercel.app",
+      "category": "ゲーム"
     },
     {
       "id": "research-zim",
@@ -172,7 +194,35 @@
       "name": "Research ZIM Factory",
       "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/research-zim.png",
       "description": "AI調査→ZIM生成",
-      "url": "https://research-zim.vercel.app"
+      "url": "https://research-zim.vercel.app",
+      "category": "生産性"
+    },
+    {
+      "id": "toshiyuki-note",
+      "type": "pwa",
+      "name": "としゆきノート",
+      "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/toshiyuki-note.png",
+      "description": "100ページのシンプルなノートアプリ",
+      "url": "https://toshiyuki-note.vercel.app",
+      "category": "生産性"
+    },
+    {
+      "id": "toshiyuki-tools",
+      "type": "pwa",
+      "name": "としゆきツールズ",
+      "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/toshiyuki-tools.png",
+      "description": "としゆきツールズ ポータル",
+      "url": "https://toshiyuki-tools.vercel.app",
+      "category": "生産性"
+    },
+    {
+      "id": "wifi-free-map",
+      "type": "pwa",
+      "name": "FreeMap",
+      "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/wifi-free-map.png",
+      "description": "SIMなし生存マップ - 全国チェーン別フリーWiFiガイド",
+      "url": "https://public-gamma-cyan-89.vercel.app",
+      "category": "地図・移動"
     }
   ]
 }
