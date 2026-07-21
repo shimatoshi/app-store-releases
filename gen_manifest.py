@@ -25,6 +25,7 @@ NAMES = {
     "flickjp": "FlickJP",
     "kiwi-engine": "kiwi-engine",
     "app-store": "Store",
+    "sniffer-browser": "Sniffer",
 }
 ICON_BASE = "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/"
 ICONS = {
@@ -32,12 +33,21 @@ ICONS = {
     "flickjp": ICON_BASE + "flickjp.png",
     "kiwi-engine": ICON_BASE + "kiwi-engine.png",
     "app-store": ICON_BASE + "app-store.png",
+    "sniffer-browser": ICON_BASE + "sniffer-browser.png",
 }
 DESCRIPTIONS = {
     "map-app": "OsmAnd代替のオフライン地図アプリ",
     "flickjp": "自作フリック日本語IME",
     "kiwi-engine": "自作ZIMオフライン書庫ビューワー",
     "app-store": "自作アプリの一覧・更新管理アプリ",
+    "sniffer-browser": "広告ブロック・メディア検出ダウンロード機能付きWebViewブラウザ",
+}
+CATEGORIES = {
+    "map-app": "地図・移動",
+    "flickjp": "入力・システム",
+    "kiwi-engine": "メディア",
+    "app-store": "生産性",
+    "sniffer-browser": "メディア",
 }
 
 
@@ -100,6 +110,7 @@ def cmd_apk(args):
             "name": NAMES.get(args.id, args.id),
             "icon": ICONS.get(args.id, "📦"),
             "description": DESCRIPTIONS.get(args.id, ""),
+            "category": CATEGORIES.get(args.id, "その他"),
             "versions": [],
         }
         manifest["apps"].append(entry)
@@ -123,6 +134,7 @@ def cmd_pwa(args):
         "icon": args.icon,
         "description": args.desc,
         "url": args.url,
+        "category": args.category or entry.get("category") or CATEGORIES.get(args.id, "その他"),
     })
     save_manifest(manifest)
 
@@ -143,6 +155,7 @@ def main():
     p_pwa.add_argument("--url", required=True)
     p_pwa.add_argument("--icon", default="🌐")
     p_pwa.add_argument("--desc", default="")
+    p_pwa.add_argument("--category", default="")
     p_pwa.set_defaults(func=cmd_pwa)
 
     args = p.parse_args()

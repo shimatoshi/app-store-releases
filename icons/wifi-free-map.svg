@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#0d1117"/>
+  <g transform="translate(256,240)" fill="none" stroke="#58a6ff" stroke-width="32" stroke-linecap="round">
+    <path d="M0,60 L0,60" stroke-width="40"/>
+    <path d="M-60,20 A85,85 0 0,1 60,20" fill="none"/>
+    <path d="M-110,-20 A155,155 0 0,1 110,-20" fill="none"/>
+    <path d="M-160,-60 A225,225 0 0,1 160,-60" fill="none"/>
+  </g>
+  <text x="256" y="420" text-anchor="middle" fill="#e6edf3" font-family="sans-serif" font-size="72" font-weight="700">FREE</text>
+</svg>

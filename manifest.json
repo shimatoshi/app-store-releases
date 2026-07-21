@@ -223,6 +223,26 @@
       "description": "SIMなし生存マップ - 全国チェーン別フリーWiFiガイド",
       "url": "https://public-gamma-cyan-89.vercel.app",
       "category": "地図・移動"
+    },
+    {
+      "id": "sniffer-browser",
+      "type": "apk",
+      "packageName": "net.localhost.sniffer",
+      "name": "Sniffer",
+      "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/sniffer-browser.png",
+      "description": "広告ブロック・メディア検出ダウンロード機能付きWebViewブラウザ",
+      "category": "メディア",
+      "versions": [
+        {
+          "versionCode": 4,
+          "versionName": "1.4",
+          "apkUrl": "https://github.com/shimatoshi/app-store-releases/releases/download/sniffer-browser-v4/sniffer-browser.apk",
+          "size": 132261,
+          "sha256": "e2f11001e7e1ebf482ecda16b34c38e77e791afc6a050c23e75b497d9cb4758d",
+          "changelog": "広告ブロック・メディア検出/HLSダウンロード・PWAインストール管理を備えたWebViewブラウザ",
+          "date": "2026-07-21"
+        }
+      ]
     }
   ]
 }
