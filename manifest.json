@@ -292,11 +292,20 @@
       "id": "sniffer-browser",
       "type": "apk",
       "packageName": "net.localhost.sniffer",
-      "name": "Sniffer",
+      "name": "Gobie",
       "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/sniffer-browser.png",
       "description": "広告ブロック・メディア検出ダウンロード機能付きWebViewブラウザ",
       "category": "メディア",
       "versions": [
+        {
+          "versionCode": 9,
+          "versionName": "1.9",
+          "apkUrl": "https://github.com/shimatoshi/app-store-releases/releases/download/sniffer-browser-v9/sniffer-browser.apk",
+          "size": 141181,
+          "sha256": "e474137959e9c6e97762a6eceaf478ff5b85ed0f6faf5724834dfedd1bce7ec8",
+          "changelog": "Gobieアイコン刷新、各種機能追加(v1.5〜1.9)",
+          "date": "2026-08-11"
+        },
         {
           "versionCode": 4,
           "versionName": "1.4",
