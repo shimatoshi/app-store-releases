@@ -97,7 +97,8 @@ def main():
         run('bash', 'build_tp.sh')
         apk = 'build/map-app.apk'
     elif recipe == 'flickplayer':
-        run('gradle', 'assembleRelease', '--no-daemon')
+        # Repository gradle.properties points at Termux's aapt2; hosted CI needs the SDK binary.
+        run('gradle', 'assembleRelease', '--no-daemon', '-Pandroid.aapt2FromMavenOverride=' + str(bt / 'aapt2'))
         apk = 'app/build/outputs/apk/release/app-release-unsigned.apk'
     elif recipe == 'termux':
         run('bash', 'gradlew', 'assembleDebug', '--no-daemon')
