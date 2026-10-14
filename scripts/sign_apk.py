@@ -11,7 +11,7 @@ if not key_data:
     raise SystemExit('Missing STORE_SIGNING_KEYSTORE_BASE64: configure the EXISTING signing key in repository Actions secrets.')
 key = Path(os.environ['RUNNER_TEMP']) / 'store-release.keystore'
 try:
-    key.write_bytes(base64.b64decode(key_data, validate=True))
+    key.write_bytes(base64.b64decode(''.join(key_data.split()), validate=True))
     key.chmod(0o600)
     bt = Path(os.environ['ANDROID_HOME']) / 'build-tools/35.0.0'
     env = os.environ.copy()
