@@ -1,0 +1,237 @@
+{
+  "sources": [
+    {
+      "id": "flickjp",
+      "type": "apk",
+      "repository": "shimatoshi/flickjp",
+      "app": {
+        "name": "shimaboard",
+        "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/flickjp.png",
+        "description": "自作フリック日本語IME",
+        "category": "入力・システム"
+      }
+    },
+    {
+      "id": "kiwi-engine",
+      "type": "apk",
+      "repository": "shimatoshi/kiwi-engine",
+      "app": {
+        "name": "kiwi-engine",
+        "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/kiwi-engine.png",
+        "description": "自作ZIMオフライン書庫ビューワー",
+        "category": "メディア"
+      }
+    },
+    {
+      "id": "map-app",
+      "type": "apk",
+      "repository": "shimatoshi/map-app",
+      "app": {
+        "name": "Map",
+        "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/map-app.png",
+        "description": "OsmAnd代替のオフライン地図アプリ",
+        "category": "地図・移動"
+      }
+    },
+    {
+      "id": "app-store",
+      "type": "apk",
+      "repository": "shimatoshi/app-store",
+      "app": {
+        "name": "Store",
+        "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/app-store.png",
+        "description": "自作アプリの一覧・更新管理アプリ",
+        "category": "生産性"
+      }
+    },
+    {
+      "id": "sniffer-browser",
+      "type": "apk",
+      "repository": "shimatoshi/sniffer-browser",
+      "app": {
+        "name": "Gobie",
+        "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/sniffer-browser.png",
+        "description": "広告ブロック・メディア検出ダウンロード機能付きWebViewブラウザ",
+        "category": "メディア"
+      }
+    },
+    {
+      "id": "flickplayer",
+      "type": "apk",
+      "repository": "shimatoshi/FlickPlayer",
+      "app": {
+        "name": "FlickPlayer",
+        "icon": "🎬",
+        "description": "フリック操作の動画プレイヤー",
+        "category": "メディア"
+      }
+    },
+    {
+      "id": "termux-app",
+      "type": "apk",
+      "repository": "shimatoshi/termux-app",
+      "app": {
+        "name": "Termux（自作ビルド）",
+        "icon": "⌨️",
+        "description": "カスタマイズしたTermux Androidターミナル",
+        "category": "入力・システム"
+      }
+    },
+    {
+      "id": "toshiyuki-note",
+      "type": "pwa",
+      "repository": "shimatoshi/toshiyuki-note",
+      "app": {
+        "name": "としゆきノート",
+        "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/toshiyuki-note.png",
+        "description": "100ページのシンプルなノートアプリ",
+        "category": "生産性",
+        "url": "https://toshiyuki-note.vercel.app"
+      }
+    },
+    {
+      "id": "news-pwa",
+      "type": "pwa",
+      "repository": "shimatoshi/news-pwa",
+      "app": {
+        "name": "News",
+        "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/news-pwa.png",
+        "description": "ニュースPWA",
+        "category": "情報",
+        "url": "https://news-pwa-rho.vercel.app"
+      }
+    },
+    {
+      "id": "transit-pwa",
+      "type": "pwa",
+      "repository": "shimatoshi/transit-pwa",
+      "app": {
+        "name": "乗換案内",
+        "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/transit-pwa.png",
+        "description": "オフライン乗換案内PWA - Wikidata駅データ+Dijkstra経路検索",
+        "category": "地図・移動",
+        "url": "https://transit-pwa.vercel.app"
+      }
+    },
+    {
+      "id": "taskbox",
+      "type": "pwa",
+      "repository": "shimatoshi/taskbox",
+      "app": {
+        "name": "taskbox",
+        "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/taskbox.png",
+        "description": "Offline-first task box PWA",
+        "category": "生産性",
+        "url": "https://taskbox.vercel.app"
+      }
+    },
+    {
+      "id": "organicmap-plus",
+      "type": "pwa",
+      "repository": "shimatoshi/organicmap-plus",
+      "app": {
+        "name": "OrganicMap+",
+        "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/organicmap-plus.png",
+        "description": "日本全国の交通・名所データビューワー",
+        "category": "地図・移動",
+        "url": "https://organicmap-plus.vercel.app"
+      }
+    },
+    {
+      "id": "pokechampions-calc",
+      "type": "pwa",
+      "repository": "shimatoshi/pokechampions-calc",
+      "app": {
+        "name": "ポケチャン ダメ計",
+        "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/pokechampions-calc.png",
+        "description": "ポケモンチャンピオンズ ダメージ計算機",
+        "category": "ゲーム",
+        "url": "https://pokechampions-calc.vercel.app"
+      }
+    },
+    {
+      "id": "url-board",
+      "type": "pwa",
+      "repository": "shimatoshi/url-board",
+      "app": {
+        "name": "URL board",
+        "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/url-board.png",
+        "description": "各プロジェクトの動的URL(トンネル等)一覧",
+        "category": "生産性",
+        "url": "https://url-board.vercel.app"
+      }
+    },
+    {
+      "id": "shimatube",
+      "type": "pwa",
+      "repository": "shimatoshi/shimatubeNEO",
+      "app": {
+        "name": "ShimaTube NEO",
+        "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/shimatube.png",
+        "description": "YouTube代替プロキシ",
+        "category": "メディア",
+        "url": "https://shimatube.vercel.app"
+      }
+    },
+    {
+      "id": "dmonline2",
+      "type": "pwa",
+      "repository": "shimatoshi/dmonline2",
+      "app": {
+        "name": "デュエマオンライン2",
+        "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/dmonline2.png",
+        "description": "React+Pythonバックエンドのカードゲーム",
+        "category": "ゲーム",
+        "url": "https://dmonline2.vercel.app"
+      }
+    },
+    {
+      "id": "toshiyuki-tools",
+      "type": "pwa",
+      "repository": "shimatoshi/toshiyuki-tools",
+      "app": {
+        "name": "としゆきツールズ",
+        "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/toshiyuki-tools.png",
+        "description": "としゆきツールズ ポータル",
+        "category": "生産性",
+        "url": "https://toshiyuki-tools.vercel.app"
+      }
+    },
+    {
+      "id": "weather-pwa",
+      "type": "pwa",
+      "repository": "shimatoshi/weather-pwa",
+      "app": {
+        "name": "Weather",
+        "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/weather-pwa.png",
+        "description": "天気PWA",
+        "category": "情報",
+        "url": "https://weather-pwa.vercel.app"
+      }
+    },
+    {
+      "id": "hexaco-checklist",
+      "type": "pwa",
+      "repository": "shimatoshi/hexaco-checklist",
+      "app": {
+        "name": "HEXACOチェックリスト",
+        "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/hexaco-checklist.png",
+        "description": "HEXACO-PI-Rベースの対人分析チェックリスト、オフラインPWA",
+        "category": "情報",
+        "url": "https://shimatoshi.github.io/hexaco-checklist/"
+      }
+    },
+    {
+      "id": "shimagle",
+      "type": "pwa",
+      "repository": "shimatoshi/Shimagle",
+      "app": {
+        "name": "Shima Search",
+        "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/shimagle.png",
+        "description": "オフライン記事保存・検索ツール",
+        "category": "生産性",
+        "url": "https://offline-library.vercel.app"
+      }
+    }
+  ]
+}

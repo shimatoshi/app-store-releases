@@ -1,0 +1,35 @@
+name: Publish deployed PWA version
+on:
+  workflow_call:
+    inputs:
+      deployment-id:
+        required: true
+        type: string
+      commit:
+        required: true
+        type: string
+permissions:
+  contents: write
+  deployments: read
+concurrency:
+  group: store-pwa-${{ github.repository }}
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ inputs.commit }}
+          persist-credentials: false
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: shimatoshi/app-store-releases
+          ref: main
+          path: .store-ci
+          persist-credentials: false
+      - name: Validate production deployment and publish version
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DEPLOYMENT_ID: ${{ inputs.deployment-id }}
+        run: python3 .store-ci/scripts/pwa_release.py --deployment-id "$DEPLOYMENT_ID"

@@ -4,7 +4,7 @@
       "id": "flickjp",
       "type": "apk",
       "packageName": "com.flickjp",
-      "name": "FlickJP",
+      "name": "shimaboard",
       "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/flickjp.png",
       "description": "自作フリック日本語IME",
       "versions": [
@@ -19,7 +19,8 @@
         }
       ],
       "category": "入力・システム",
-      "longDescription": "辞書(SKK-JISYO.L由来、約13万語)をヒープに載せず、APK内の非圧縮アセットに対してバイト単位の二分探索で引く独自実装で、メモリ消費とAPKサイズ(約4.2MB)を最小化している。フリック12キー配列で中央文字を大きく表示し、方向ガイドはタッチ時にポップアップ表示する。完全一致+最長一致の貪欲文節分割によるかな漢字変換とひらがな/カタカナ候補提示に対応する。キーボードを左右に寄せられる片手入力モードと、直近1文字を小書き/濁点/半濁点に切り替える専用キーを備える。"
+      "longDescription": "辞書(SKK-JISYO.L由来、約13万語)をヒープに載せず、APK内の非圧縮アセットに対してバイト単位の二分探索で引く独自実装で、メモリ消費とAPKサイズ(約4.2MB)を最小化している。フリック12キー配列で中央文字を大きく表示し、方向ガイドはタッチ時にポップアップ表示する。完全一致+最長一致の貪欲文節分割によるかな漢字変換とひらがな/カタカナ候補提示に対応する。キーボードを左右に寄せられる片手入力モードと、直近1文字を小書き/濁点/半濁点に切り替える専用キーを備える。",
+      "sourceRepository": "shimatoshi/flickjp"
     },
     {
       "id": "kiwi-engine",
@@ -40,7 +41,8 @@
         }
       ],
       "category": "メディア",
-      "longDescription": "kiwix-serveをバックエンド(localhost:8099)に据えたテーマ付きWebView+ウィジェットのZIM書庫ビューワー。kiwix-serveのXapian全文検索を使った端末内ZIM横断検索、ランダム記事ピックアップ(「今日のZIM」)、ホーム画面ウィジェット(検索バー/新着/今日のピック)を軸に設計されている。既存の自作ブラウザ(sniffer/Gobie)のウィジェット配管を流用する方針。"
+      "longDescription": "kiwix-serveをバックエンド(localhost:8099)に据えたテーマ付きWebView+ウィジェットのZIM書庫ビューワー。kiwix-serveのXapian全文検索を使った端末内ZIM横断検索、ランダム記事ピックアップ(「今日のZIM」)、ホーム画面ウィジェット(検索バー/新着/今日のピック)を軸に設計されている。既存の自作ブラウザ(sniffer/Gobie)のウィジェット配管を流用する方針。",
+      "sourceRepository": "shimatoshi/kiwi-engine"
     },
     {
       "id": "map-app",
@@ -61,7 +63,8 @@
         }
       ],
       "category": "地図・移動",
-      "longDescription": "MapLibre(Mapboxパッケージ名を維持したフォーク)ベースで、mbtilesの等高線などをSAF経由でユーザーが追加できるベクタレイヤー機構を持つ。BRouterをオフライン経路探索エンジンとして使い、車/徒歩/自転車のプロファイル切替とライブ案内(ターンバイターン、フォアグラウンドサービス)に対応する。検索は住所(ISJ街区レベル)とPOIの両方をカバーし、ユーザー独自POIの追加・表示も可能。公共交通の経路案内は自前実装せず、最寄り駅名でtransit-pwaを埋め込みWebViewパネルとして地図上に呼び出す連携方式を取る。"
+      "longDescription": "MapLibre(Mapboxパッケージ名を維持したフォーク)ベースで、mbtilesの等高線などをSAF経由でユーザーが追加できるベクタレイヤー機構を持つ。BRouterをオフライン経路探索エンジンとして使い、車/徒歩/自転車のプロファイル切替とライブ案内(ターンバイターン、フォアグラウンドサービス)に対応する。検索は住所(ISJ街区レベル)とPOIの両方をカバーし、ユーザー独自POIの追加・表示も可能。公共交通の経路案内は自前実装せず、最寄り駅名でtransit-pwaを埋め込みWebViewパネルとして地図上に呼び出す連携方式を取る。",
+      "sourceRepository": "shimatoshi/map-app"
     },
     {
       "id": "app-store",
@@ -127,7 +130,8 @@
         }
       ],
       "category": "生産性",
-      "longDescription": "ネイティブはWebViewの薄いシェルで、UIはReact+TypeScript製。GitHub上のmanifest.jsonのカタログを読み込んで表示する。JSブリッジ経由でAPKはDownloadManagerでダウンロード後にパッケージインストーラを起動し、PackageManagerで現在のインストール済みバージョンを取得して未インストール/更新可能/最新の状態を判別する。APKとPWAをタブで分け、カテゴリ絞り込み・検索・バージョン履歴表示に対応する。"
+      "longDescription": "ネイティブはWebViewの薄いシェルで、UIはReact+TypeScript製。GitHub上のmanifest.jsonのカタログを読み込んで表示する。JSブリッジ経由でAPKはDownloadManagerでダウンロード後にパッケージインストーラを起動し、PackageManagerで現在のインストール済みバージョンを取得して未インストール/更新可能/最新の状態を判別する。APKとPWAをタブで分け、カテゴリ絞り込み・検索・バージョン履歴表示に対応する。",
+      "sourceRepository": "shimatoshi/app-store"
     },
     {
       "id": "transit-pwa",
@@ -137,7 +141,8 @@
       "description": "オフライン乗換案内PWA - Wikidata駅データ+Dijkstra経路検索",
       "url": "https://transit-pwa.vercel.app",
       "category": "地図・移動",
-      "longDescription": "Wikidataの駅データに加え、実在の列車時刻表をConnection Scan Algorithmで辿る経路探索に対応し、実際の発着時刻ベースで経路を検索する。出発時刻指定・到着時刻指定(二分探索で最遅出発を求める)の両モード、経由駅指定、複数経路候補の提示に対応する。JR・私鉄各社の有料特急/ライナーを判定し、運賃計算(特急料金込み)まで行う。Wikidata取得・時刻表スクレイピング・運賃表構築など多数のスクリプトによるデータパイプラインで駅・路線・時刻表・運賃データを生成している。"
+      "longDescription": "Wikidataの駅データに加え、実在の列車時刻表をConnection Scan Algorithmで辿る経路探索に対応し、実際の発着時刻ベースで経路を検索する。出発時刻指定・到着時刻指定(二分探索で最遅出発を求める)の両モード、経由駅指定、複数経路候補の提示に対応する。JR・私鉄各社の有料特急/ライナーを判定し、運賃計算(特急料金込み)まで行う。Wikidata取得・時刻表スクレイピング・運賃表構築など多数のスクリプトによるデータパイプラインで駅・路線・時刻表・運賃データを生成している。",
+      "sourceRepository": "shimatoshi/transit-pwa"
     },
     {
       "id": "news-pwa",
@@ -150,7 +155,8 @@
       "longDescription": "ニュースだけでなく気象庁の天気予報・警報注意報、Open-Meteoの補完データ、潮汐観測所データまで扱う複合PWA。ニュース面はユーザーがRSS/AtomフィードをURL登録でき、フィードURLが不明なサイトでもHTMLから自動発見してパースする。readability.jsにより記事本文抽出のリーダーモードを提供し、データはIndexedDBにキャッシュしてオフライン表示に対応する。",
       "screenshots": [
         "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/news-pwa.png"
-      ]
+      ],
+      "sourceRepository": "shimatoshi/news-pwa"
     },
     {
       "id": "taskbox",
@@ -163,7 +169,8 @@
       "longDescription": "IndexedDB保存によるオフラインファーストのタスク管理アプリ。タスクは締切設定可能な「Box」(プロジェクト/カテゴリ)に分類し、サブタスクのツリー構造、色付きラベル(タグ)を持つ。進捗は完了/未完了ではなく0〜5の6段階で専用ダイヤルUIに表示する。ドラッグ&ドロップでの手動並べ替え、フィルタ/ソート、全タスク/Box一覧/ラベル/完了済み/設定の各ページを備える。",
       "screenshots": [
         "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/taskbox.png"
-      ]
+      ],
+      "sourceRepository": "shimatoshi/taskbox"
     },
     {
       "id": "teganuma-zukan",
@@ -189,7 +196,8 @@
       "longDescription": "日本全国の駅・交通データと観光名所データをオフラインで閲覧できるビューワー。「交通データ」ビューでは全国10,460駅の路線情報や駅周辺の施設・グルメ・バス停(73万件超のPOI、8ジャンル)を検索・閲覧できる。「名所ガイド」ビューでは47都道府県5,001件の名所を都道府県・市区町村から探索でき、画像や解説が付いている。",
       "screenshots": [
         "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/organicmap-plus.png"
-      ]
+      ],
+      "sourceRepository": "shimatoshi/organicmap-plus"
     },
     {
       "id": "pokechampions-calc",
@@ -202,7 +210,8 @@
       "longDescription": "「ポケモンチャンピオンズ」向けのダメージ計算機。技・特性・持ち物・能力値を指定したダメージ計算に加え、簡易対戦シミュレーション、手持ちボックス・パーティ管理、対戦記録の保存機能を備える。ポケモン・技データは外部サイトをスクレイピング・加工して収集し、オフライン用ZIM形式にもパッケージ化している。",
       "screenshots": [
         "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/pokechampions-calc.png"
-      ]
+      ],
+      "sourceRepository": "shimatoshi/pokechampions-calc"
     },
     {
       "id": "url-board",
@@ -215,7 +224,8 @@
       "longDescription": "自作の各プロジェクト(トンネル経由で公開しているPWA・バックエンド等)の最新アクセスURLを一覧表示する掲示板アプリ。project-urlsリポジトリのurls.jsonをデータソースとし、頻繁に変わる動的URLと固定URLを区別して表示する。個別プロジェクトの現在のURLを返すAPIを持ち、research-zim等の他アプリがバックエンド接続先の解決に利用している。",
       "screenshots": [
         "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/url-board.png"
-      ]
+      ],
+      "sourceRepository": "shimatoshi/url-board"
     },
     {
       "id": "shimatube",
@@ -228,7 +238,8 @@
       "longDescription": "YouTube動画を検索・再生できる代替プロキシアプリ。バックエンド(Python)は検索・急上昇・チャンネル情報・再生リスト・関連動画・コメント・HLSストリーミングをそれぞれ専用ハンドラで処理する。Android版はローカルHTTPサーバーを起動してWebViewで表示し、PWA版は同じバックエンドAPIをWeb UIから利用して検索・再生・チャンネル閲覧など一通りの視聴機能を備える。",
       "screenshots": [
         "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/shimatube.png"
-      ]
+      ],
+      "sourceRepository": "shimatoshi/shimatubeNEO"
     },
     {
       "id": "dmonline2",
@@ -238,7 +249,8 @@
       "description": "React+Pythonバックエンドのカードゲーム",
       "url": "https://dmonline2.vercel.app",
       "category": "ゲーム",
-      "longDescription": "デュエルマスターズのオンライン対戦・デッキ構築アプリ。ロビー・ログイン・プロフィールに加え、ドラッグ&ドロップでカードを操作する対戦盤面(ゾーン、スタックメニュー、チャットサイドバー)を実装している。デッキビルダー・デッキ一覧・カードライブラリ、デッキ画像生成機能、BBS(掲示板)機能も統合されている。バックエンドはPython製でPCサーバー上に常時稼働している。"
+      "longDescription": "デュエルマスターズのオンライン対戦・デッキ構築アプリ。ロビー・ログイン・プロフィールに加え、ドラッグ&ドロップでカードを操作する対戦盤面(ゾーン、スタックメニュー、チャットサイドバー)を実装している。デッキビルダー・デッキ一覧・カードライブラリ、デッキ画像生成機能、BBS(掲示板)機能も統合されている。バックエンドはPython製でPCサーバー上に常時稼働している。",
+      "sourceRepository": "shimatoshi/dmonline2"
     },
     {
       "id": "research-zim",
@@ -261,7 +273,8 @@
       "description": "100ページのシンプルなノートアプリ",
       "url": "https://toshiyuki-note.vercel.app",
       "category": "生産性",
-      "longDescription": "完全オフライン対応のノートアプリ(1冊100ページ構成)。テキスト入力・タイムスタンプ挿入に加え、GPS座標や住所を記録する位置情報ログ機能、画像添付機能を備える。データは端末内IndexedDBに保存され機内モードでも読み書き・検索が可能。記録日をドット表示するカレンダーや全文検索、ノート単位でのZIPエクスポートもできる。"
+      "longDescription": "完全オフライン対応のノートアプリ(1冊100ページ構成)。テキスト入力・タイムスタンプ挿入に加え、GPS座標や住所を記録する位置情報ログ機能、画像添付機能を備える。データは端末内IndexedDBに保存され機内モードでも読み書き・検索が可能。記録日をドット表示するカレンダーや全文検索、ノート単位でのZIPエクスポートもできる。",
+      "sourceRepository": "shimatoshi/toshiyuki-note"
     },
     {
       "id": "toshiyuki-tools",
@@ -274,7 +287,8 @@
       "longDescription": "ノート・カレンダー・loach(自然言語操作)・push-server(通知)など複数の自作ツールをまとめるランチャー兼アカウント管理アプリ。ツール同士は直接通信せず、共通の「としゆきアカウント」を介してデータをやり取りする設計で、各ツールはローカル優先で読み書きしオンライン時に同期する。",
       "screenshots": [
         "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/toshiyuki-tools.png"
-      ]
+      ],
+      "sourceRepository": "shimatoshi/toshiyuki-tools"
     },
     {
       "id": "wifi-free-map",
@@ -316,7 +330,8 @@
           "date": "2026-07-21"
         }
       ],
-      "longDescription": "独自の広告ブロッカーと、ページ内video/audio要素の再生状態を監視するメディア検出、HLS(m3u8)動画のダウンロード機能を備える。全画面動画のネイティブPiP(ホーム移動で小窓化)とバックグラウンド再生にも対応する。それに加えてPWAのインストール/更新/事前ウォームアップ/スケジューリング、ホーム画面ウィジェット(検索バー・フィード記事)、音声検索、ユーザースクリプト実行、オフラインページ保存など、単純なブラウザを超えた機能を多数持つ。"
+      "longDescription": "独自の広告ブロッカーと、ページ内video/audio要素の再生状態を監視するメディア検出、HLS(m3u8)動画のダウンロード機能を備える。全画面動画のネイティブPiP(ホーム移動で小窓化)とバックグラウンド再生にも対応する。それに加えてPWAのインストール/更新/事前ウォームアップ/スケジューリング、ホーム画面ウィジェット(検索バー・フィード記事)、音声検索、ユーザースクリプト実行、オフラインページ保存など、単純なブラウザを超えた機能を多数持つ。",
+      "sourceRepository": "shimatoshi/sniffer-browser"
     },
     {
       "id": "weather-pwa",
@@ -329,7 +344,8 @@
       "longDescription": "React+Viteで作られたPWA版天気アプリ。vite-plugin-pwaによりオフラインでも起動・キャッシュ表示に対応する。",
       "screenshots": [
         "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/weather-pwa.png"
-      ]
+      ],
+      "sourceRepository": "shimatoshi/weather-pwa"
     },
     {
       "id": "hexaco-checklist",
@@ -342,7 +358,8 @@
       "longDescription": "HEXACO-PI-R(誠実性・協調性・情動性等6因子のパーソナリティモデル)に基づくチェックリストで、回答から対人関係の傾向を分析するオフライン対応PWA。GitHub Pagesで静的配信されている。",
       "screenshots": [
         "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/hexaco-checklist.png"
-      ]
+      ],
+      "sourceRepository": "shimatoshi/hexaco-checklist"
     },
     {
       "id": "shimagle",
@@ -355,7 +372,8 @@
       "longDescription": "記事や資料をオフラインに保存し、後から全文検索できるツール。vite-plugin-pwaによるオフライン対応で、ネット接続がない環境でも保存済みコンテンツを閲覧・検索できる。",
       "screenshots": [
         "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/shimagle.png"
-      ]
+      ],
+      "sourceRepository": "shimatoshi/Shimagle"
     },
     {
       "id": "gen5-battle-platform",
@@ -369,6 +387,26 @@
       "screenshots": [
         "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/gen5-battle-platform.png"
       ]
+    },
+    {
+      "id": "flickplayer",
+      "type": "apk",
+      "name": "FlickPlayer",
+      "icon": "🎬",
+      "description": "フリック操作の動画プレイヤー",
+      "category": "メディア",
+      "versions": [],
+      "sourceRepository": "shimatoshi/FlickPlayer"
+    },
+    {
+      "id": "termux-app",
+      "type": "apk",
+      "name": "Termux（自作ビルド）",
+      "icon": "⌨️",
+      "description": "カスタマイズしたTermux Androidターミナル",
+      "category": "入力・システム",
+      "versions": [],
+      "sourceRepository": "shimatoshi/termux-app"
     }
   ]
 }

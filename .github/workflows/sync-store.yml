@@ -1,0 +1,41 @@
+name: Synchronize Store catalogue
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  push:
+    branches: [main]
+    paths: ['sources.json', 'scripts/**', '.github/workflows/**']
+  workflow_dispatch:
+  repository_dispatch:
+    types: [store-release]
+permissions:
+  contents: write
+concurrency:
+  group: store-catalogue
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Test catalogue contract
+        run: python3 -m unittest discover -s scripts -p 'test_*.py' -v
+      - name: Prepare APK signature verification tools
+        run: |
+          if [ ! -x "$ANDROID_HOME/build-tools/35.0.0/apksigner" ]; then
+            "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" 'build-tools;35.0.0'
+          fi
+          echo "$ANDROID_HOME/build-tools/35.0.0" >> "$GITHUB_PATH"
+      - name: Synchronize successful releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+          STORE_SOURCE_TOKEN: ${{ secrets.STORE_SOURCE_TOKEN }}
+        run: python3 scripts/store_release.py sync
+      - name: Commit catalogue only when changed
+        run: |
+          if git diff --quiet -- manifest.json; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add manifest.json
+          git commit -m 'Sync released APK and deployed PWA versions'
+          git push origin HEAD:main
