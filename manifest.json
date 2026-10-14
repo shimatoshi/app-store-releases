@@ -170,6 +170,20 @@
       "sourceRepository": "shimatoshi/news-pwa",
       "versions": [
         {
+          "versionName": "1.0.0+29ec82d3015b",
+          "date": "2026-10-14T07:42:47Z",
+          "sourceCommit": "29ec82d3015bc900058502431569277595c4b572",
+          "changelog": "Keep news categories stable and newest articles first after reload",
+          "releaseUrl": "https://github.com/shimatoshi/news-pwa/releases/tag/v1.0.0%2B29ec82d3015b"
+        },
+        {
+          "versionName": "1.0.0+1f90fe6ccc5e",
+          "date": "2026-10-14T07:33:36Z",
+          "sourceCommit": "1f90fe6ccc5ed5a08a0fcf077961b237f5673f6a",
+          "changelog": "Restore news with RSS, add persistent dark mode and fix Tokachi forecasts",
+          "releaseUrl": "https://github.com/shimatoshi/news-pwa/releases/tag/v1.0.0%2B1f90fe6ccc5e"
+        },
+        {
           "versionName": "1.0.0+964f0a172d18",
           "date": "2026-10-14T06:02:00Z",
           "sourceCommit": "964f0a172d18c5b5ff251dd9adb8707188c019f4",
@@ -177,8 +191,8 @@
           "releaseUrl": "https://github.com/shimatoshi/news-pwa/releases/tag/v1.0.0%2B964f0a172d18"
         }
       ],
-      "latestVersion": "1.0.0+964f0a172d18",
-      "updatedAt": "2026-10-14T06:02:00Z"
+      "latestVersion": "1.0.0+29ec82d3015b",
+      "updatedAt": "2026-10-14T07:42:47Z"
     },
     {
       "id": "taskbox",
@@ -247,6 +261,13 @@
       "sourceRepository": "shimatoshi/pokechampions-calc",
       "versions": [
         {
+          "versionName": "1.0.0+597943bdd66b",
+          "date": "2026-10-14T09:04:16Z",
+          "sourceCommit": "597943bdd66bf7c4701bfa71e303a35f24313d8b",
+          "changelog": "Redesign calculator workspace and shared app UI without changing engine",
+          "releaseUrl": "https://github.com/shimatoshi/pokechampions-calc/releases/tag/v1.0.0%2B597943bdd66b"
+        },
+        {
           "versionName": "1.0.0+3a46a0af6753",
           "date": "2026-10-14T06:02:17Z",
           "sourceCommit": "3a46a0af6753e76f998231248eaae2385904d2d0",
@@ -254,8 +275,8 @@
           "releaseUrl": "https://github.com/shimatoshi/pokechampions-calc/releases/tag/v1.0.0%2B3a46a0af6753"
         }
       ],
-      "latestVersion": "1.0.0+3a46a0af6753",
-      "updatedAt": "2026-10-14T06:02:17Z"
+      "latestVersion": "1.0.0+597943bdd66b",
+      "updatedAt": "2026-10-14T09:04:16Z"
     },
     {
       "id": "url-board",
