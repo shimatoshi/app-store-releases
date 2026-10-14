@@ -1,6 +1,12 @@
 import copy
 import unittest
-from store_release import upsert, validate
+import argparse
+import json
+import os
+from pathlib import Path
+import tempfile
+from unittest.mock import patch
+from store_release import upsert, validate, sync
 
 
 class CatalogueTests(unittest.TestCase):
@@ -63,6 +69,36 @@ class CatalogueTests(unittest.TestCase):
         source, meta = self.apk()
         with self.assertRaises(ValueError):
             upsert({'apps': []}, source, meta, 'https://github.com/shimatoshi/note/releases/tag/v2')
+
+    def test_private_access_failure_does_not_block_valid_public_pwa(self):
+        inaccessible = dict(self.source, id='private-app', repository='shimatoshi/private-app')
+        release = {'tag_name': self.meta['tagName'], 'draft': False, 'prerelease': False,
+                   'html_url': 'https://github.com/shimatoshi/note/releases/tag/' + self.meta['tagName'],
+                   'assets': [{'name': 'store-release.json'}]}
+        def fake_api(path, token=None):
+            if 'private-app' in path:
+                raise RuntimeError('Not Found (HTTP 404)')
+            return [release] if '/releases?' in path else {'private': False}
+        def fake_download(repo, tag, filename, directory, token=None):
+            path = Path(directory) / filename
+            path.write_text(json.dumps(self.meta))
+            return path
+        with tempfile.TemporaryDirectory() as tmp:
+            source_path = Path(tmp) / 'sources.json'
+            manifest_path = Path(tmp) / 'manifest.json'
+            source_path.write_text(json.dumps({'sources': [inaccessible, self.source]}))
+            manifest_path.write_text(json.dumps({'apps': []}))
+            previous_cwd = os.getcwd()
+            try:
+                os.chdir(tmp)
+                with patch('store_release.api', side_effect=fake_api), patch('store_release.download', side_effect=fake_download):
+                    sync(argparse.Namespace(sources=str(source_path), manifest=str(manifest_path)))
+                apps = json.loads(manifest_path.read_text())['apps']
+                self.assertEqual([app['id'] for app in apps], ['note'])
+                self.assertEqual(apps[0]['latestVersion'], self.meta['versionName'])
+                self.assertEqual(len(json.loads(Path('sync-status.json').read_text())['errors']), 1)
+            finally:
+                os.chdir(previous_cwd)
 
 
 if __name__ == '__main__':
