@@ -39,3 +39,16 @@ jobs:
           git add manifest.json
           git commit -m 'Sync released APK and deployed PWA versions'
           git push origin HEAD:main
+      - name: Report sources that could not be synchronized
+        run: |
+          python3 - <<'PY'
+          import json, os
+          errors = json.load(open('sync-status.json'))['errors']
+          if errors:
+              with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as out:
+                  out.write('## Sources awaiting access or repair\n\n')
+                  out.write('Configure STORE_SOURCE_TOKEN with Contents: read for private source repositories. Successfully verified public apps were synchronized.\n\n')
+                  for error in errors:
+                      out.write('- ' + error.replace('\n', ' ') + '\n')
+              raise SystemExit('Some apps were not synchronized; see job summary')
+          PY

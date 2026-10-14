@@ -2,6 +2,7 @@
 """Release metadata contract and idempotent Store catalogue updates (stdlib only)."""
 import argparse
 import base64
+import copy
 import hashlib
 import json
 import os
@@ -185,6 +186,7 @@ def sync(args):
     errors = []
     for source in sources:
         repo = source['repository']
+        candidate = copy.deepcopy(manifest)
         try:
             repo_info = api('repos/' + repo, token=source_token or target_token)
             releases = api('repos/' + repo + '/releases?per_page=30', token=source_token or target_token)
@@ -200,7 +202,7 @@ def sync(args):
                     validate(meta, source)
                     if meta['tagName'] != release['tag_name']:
                         raise ValueError('Asset metadata does not match release tag')
-                    app = next((a for a in manifest['apps'] if a['id'] == source['id']), None)
+                    app = next((a for a in candidate['apps'] if a['id'] == source['id']), None)
                     old_versions = app.get('versions', []) if app else []
                     registered = next((v for v in old_versions if v.get('sourceCommit') == meta['sourceCommit']
                                        and v['versionName'] == meta['versionName']), None)
@@ -255,14 +257,16 @@ def sync(args):
                             apk_url = 'https://github.com/' + target + '/releases/download/' + urllib.parse.quote(public_tag, safe='') + '/' + urllib.parse.quote(meta['assetName'], safe='')
                         else:
                             apk_url = next(a['browser_download_url'] for a in release['assets'] if a['name'] == meta['assetName'])
-                    upsert(manifest, source, meta, apk_url, release_url)
+                    upsert(candidate, source, meta, apk_url, release_url)
+            manifest = candidate
             print('Synced ' + repo)
         except (RuntimeError, ValueError, KeyError) as exc:
             errors.append(repo + ': ' + str(exc))
-    if errors:
-        # No partial catalogue commit: rerunning safely resumes any draft/published assets.
-        raise RuntimeError('\n'.join(errors))
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
+    # Failures are isolated by app: a private app without credentials cannot block public PWA updates.
+    Path('sync-status.json').write_text(json.dumps({'errors': errors}, ensure_ascii=False, indent=2) + '\n')
+    for error in errors:
+        print('::warning::' + error.replace('\n', ' '))
 
 
 def main():
