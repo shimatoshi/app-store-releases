@@ -142,7 +142,18 @@
       "url": "https://transit-pwa.vercel.app",
       "category": "地図・移動",
       "longDescription": "Wikidataの駅データに加え、実在の列車時刻表をConnection Scan Algorithmで辿る経路探索に対応し、実際の発着時刻ベースで経路を検索する。出発時刻指定・到着時刻指定(二分探索で最遅出発を求める)の両モード、経由駅指定、複数経路候補の提示に対応する。JR・私鉄各社の有料特急/ライナーを判定し、運賃計算(特急料金込み)まで行う。Wikidata取得・時刻表スクレイピング・運賃表構築など多数のスクリプトによるデータパイプラインで駅・路線・時刻表・運賃データを生成している。",
-      "sourceRepository": "shimatoshi/transit-pwa"
+      "sourceRepository": "shimatoshi/transit-pwa",
+      "versions": [
+        {
+          "versionName": "1.0.0+753aabdb8853",
+          "date": "2026-10-14T06:02:03Z",
+          "sourceCommit": "753aabdb885340147d10ea0ecfe49b830dba08c8",
+          "changelog": "Register PWA version in Store after successful production deployment",
+          "releaseUrl": "https://github.com/shimatoshi/transit-pwa/releases/tag/v1.0.0%2B753aabdb8853"
+        }
+      ],
+      "latestVersion": "1.0.0+753aabdb8853",
+      "updatedAt": "2026-10-14T06:02:03Z"
     },
     {
       "id": "news-pwa",
@@ -156,7 +167,18 @@
       "screenshots": [
         "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/news-pwa.png"
       ],
-      "sourceRepository": "shimatoshi/news-pwa"
+      "sourceRepository": "shimatoshi/news-pwa",
+      "versions": [
+        {
+          "versionName": "1.0.0+964f0a172d18",
+          "date": "2026-10-14T06:02:00Z",
+          "sourceCommit": "964f0a172d18c5b5ff251dd9adb8707188c019f4",
+          "changelog": "Register PWA version in Store after successful production deployment",
+          "releaseUrl": "https://github.com/shimatoshi/news-pwa/releases/tag/v1.0.0%2B964f0a172d18"
+        }
+      ],
+      "latestVersion": "1.0.0+964f0a172d18",
+      "updatedAt": "2026-10-14T06:02:00Z"
     },
     {
       "id": "taskbox",
@@ -197,7 +219,18 @@
       "screenshots": [
         "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/organicmap-plus.png"
       ],
-      "sourceRepository": "shimatoshi/organicmap-plus"
+      "sourceRepository": "shimatoshi/organicmap-plus",
+      "versions": [
+        {
+          "versionName": "1.0.0+21d3489787c1",
+          "date": "2026-10-14T06:02:13Z",
+          "sourceCommit": "21d3489787c16a070e4bf50a4a48be432276a186",
+          "changelog": "Register PWA version in Store after successful production deployment",
+          "releaseUrl": "https://github.com/shimatoshi/organicmap-plus/releases/tag/v1.0.0%2B21d3489787c1"
+        }
+      ],
+      "latestVersion": "1.0.0+21d3489787c1",
+      "updatedAt": "2026-10-14T06:02:13Z"
     },
     {
       "id": "pokechampions-calc",
@@ -211,7 +244,18 @@
       "screenshots": [
         "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/pokechampions-calc.png"
       ],
-      "sourceRepository": "shimatoshi/pokechampions-calc"
+      "sourceRepository": "shimatoshi/pokechampions-calc",
+      "versions": [
+        {
+          "versionName": "1.0.0+3a46a0af6753",
+          "date": "2026-10-14T06:02:17Z",
+          "sourceCommit": "3a46a0af6753e76f998231248eaae2385904d2d0",
+          "changelog": "Register PWA version in Store after successful production deployment",
+          "releaseUrl": "https://github.com/shimatoshi/pokechampions-calc/releases/tag/v1.0.0%2B3a46a0af6753"
+        }
+      ],
+      "latestVersion": "1.0.0+3a46a0af6753",
+      "updatedAt": "2026-10-14T06:02:17Z"
     },
     {
       "id": "url-board",
