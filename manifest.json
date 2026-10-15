@@ -170,6 +170,27 @@
       "sourceRepository": "shimatoshi/news-pwa",
       "versions": [
         {
+          "versionName": "1.0.0+b509d1dcd289",
+          "date": "2026-10-15T10:14:03Z",
+          "sourceCommit": "b509d1dcd28960da8a49ba429dc5d0d5cad2e2b4",
+          "changelog": "Fix ampersand escape in strings.xml",
+          "releaseUrl": "https://github.com/shimatoshi/news-pwa/releases/tag/v1.0.0%2Bb509d1dcd289"
+        },
+        {
+          "versionName": "1.0.0+3cd1e62af8f8",
+          "date": "2026-10-15T10:12:50Z",
+          "sourceCommit": "3cd1e62af8f822a5f8cda01add0cb545925e1e95",
+          "changelog": "Wrap news PWA in WebView app alongside weather/tide widget",
+          "releaseUrl": "https://github.com/shimatoshi/news-pwa/releases/tag/v1.0.0%2B3cd1e62af8f8"
+        },
+        {
+          "versionName": "1.0.0+6c0b0508e507",
+          "date": "2026-10-15T09:57:47Z",
+          "sourceCommit": "6c0b0508e507bbbe22f47c4c05840890d15c7e34",
+          "changelog": "Add fixed debug keystore for Android widget",
+          "releaseUrl": "https://github.com/shimatoshi/news-pwa/releases/tag/v1.0.0%2B6c0b0508e507"
+        },
+        {
           "versionName": "1.0.0+441ee931639f",
           "date": "2026-10-15T02:38:25Z",
           "sourceCommit": "441ee931639fe238d38d1df33ae8ac5933705365",
@@ -205,8 +226,8 @@
           "releaseUrl": "https://github.com/shimatoshi/news-pwa/releases/tag/v1.0.0%2B964f0a172d18"
         }
       ],
-      "latestVersion": "1.0.0+441ee931639f",
-      "updatedAt": "2026-10-15T02:38:25Z"
+      "latestVersion": "1.0.0+b509d1dcd289",
+      "updatedAt": "2026-10-15T10:14:03Z"
     },
     {
       "id": "taskbox",
@@ -275,6 +296,34 @@
       "sourceRepository": "shimatoshi/pokechampions-calc",
       "versions": [
         {
+          "versionName": "1.0.0+629538622699",
+          "date": "2026-10-15T08:23:42Z",
+          "sourceCommit": "6295386226998856a5b426f8a14e9db3c592c1fd",
+          "changelog": "Keep results and save actions on separate mobile screens",
+          "releaseUrl": "https://github.com/shimatoshi/pokechampions-calc/releases/tag/v1.0.0%2B629538622699"
+        },
+        {
+          "versionName": "1.0.0+d892e0fd30ac",
+          "date": "2026-10-15T08:21:52Z",
+          "sourceCommit": "d892e0fd30ac5aa8bb94f0d9a5dfd9f3aeacbc5e",
+          "changelog": "Fit calculator settings into short mobile screens",
+          "releaseUrl": "https://github.com/shimatoshi/pokechampions-calc/releases/tag/v1.0.0%2Bd892e0fd30ac"
+        },
+        {
+          "versionName": "1.0.0+f14264352587",
+          "date": "2026-10-15T08:14:18Z",
+          "sourceCommit": "f14264352587e752ec44106dc954d94fcbfd001b",
+          "changelog": "Remove page introductions and keep mobile calculator within the viewport",
+          "releaseUrl": "https://github.com/shimatoshi/pokechampions-calc/releases/tag/v1.0.0%2Bf14264352587"
+        },
+        {
+          "versionName": "1.0.0+a8f098477dce",
+          "date": "2026-10-15T07:42:45Z",
+          "sourceCommit": "a8f098477dce6da71c466c22b003e477a997e629",
+          "changelog": "Simplify calculator UI and unify light and dark workspaces",
+          "releaseUrl": "https://github.com/shimatoshi/pokechampions-calc/releases/tag/v1.0.0%2Ba8f098477dce"
+        },
+        {
           "versionName": "1.0.0+597943bdd66b",
           "date": "2026-10-14T09:04:16Z",
           "sourceCommit": "597943bdd66bf7c4701bfa71e303a35f24313d8b",
@@ -289,8 +338,8 @@
           "releaseUrl": "https://github.com/shimatoshi/pokechampions-calc/releases/tag/v1.0.0%2B3a46a0af6753"
         }
       ],
-      "latestVersion": "1.0.0+597943bdd66b",
-      "updatedAt": "2026-10-14T09:04:16Z"
+      "latestVersion": "1.0.0+629538622699",
+      "updatedAt": "2026-10-15T08:23:42Z"
     },
     {
       "id": "url-board",
