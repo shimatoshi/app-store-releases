@@ -170,6 +170,20 @@
       "sourceRepository": "shimatoshi/news-pwa",
       "versions": [
         {
+          "versionName": "1.0.0+441ee931639f",
+          "date": "2026-10-15T02:38:25Z",
+          "sourceCommit": "441ee931639fe238d38d1df33ae8ac5933705365",
+          "changelog": "Redesign news PWA with editorial layout and category search",
+          "releaseUrl": "https://github.com/shimatoshi/news-pwa/releases/tag/v1.0.0%2B441ee931639f"
+        },
+        {
+          "versionName": "1.0.0+c06d32351abf",
+          "date": "2026-10-15T02:19:51Z",
+          "sourceCommit": "c06d32351abf7755d3f714650b4290cd920a360f",
+          "changelog": "Redesign news PWA with editorial layout and category search",
+          "releaseUrl": "https://github.com/shimatoshi/news-pwa/releases/tag/v1.0.0%2Bc06d32351abf"
+        },
+        {
           "versionName": "1.0.0+29ec82d3015b",
           "date": "2026-10-14T07:42:47Z",
           "sourceCommit": "29ec82d3015bc900058502431569277595c4b572",
@@ -191,8 +205,8 @@
           "releaseUrl": "https://github.com/shimatoshi/news-pwa/releases/tag/v1.0.0%2B964f0a172d18"
         }
       ],
-      "latestVersion": "1.0.0+29ec82d3015b",
-      "updatedAt": "2026-10-14T07:42:47Z"
+      "latestVersion": "1.0.0+441ee931639f",
+      "updatedAt": "2026-10-15T02:38:25Z"
     },
     {
       "id": "taskbox",
