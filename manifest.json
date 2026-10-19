@@ -75,6 +75,18 @@
       "description": "自作アプリの一覧・更新管理アプリ",
       "versions": [
         {
+          "versionName": "2.4+build.2",
+          "date": "2026-10-19T10:24:50Z",
+          "sourceCommit": "7d334d87fee73986b3cf465e35309c574550b408",
+          "changelog": "Fix bugs, harden APK install, and polish UI",
+          "releaseUrl": "https://github.com/shimatoshi/app-store-releases/releases/tag/app-store-v2.4%2Bbuild.2",
+          "versionCode": 1000002,
+          "size": 119590,
+          "sha256": "b6aed26b6befe7a0138ad1caa607c58d025eee9a014c11efb93854a1fd2f6018",
+          "signingCertificateSha256": "a8a09b64c64d5ff67b06a7e7eeeddbc3e8d3792391a5166c1e698b691714e97e",
+          "apkUrl": "https://github.com/shimatoshi/app-store-releases/releases/download/app-store-v2.4%2Bbuild.2/app-store-v2.4%2Bbuild.2.apk"
+        },
+        {
           "versionCode": 6,
           "versionName": "2.4",
           "size": 115500,
@@ -125,7 +137,9 @@
       ],
       "category": "生産性",
       "longDescription": "ネイティブはWebViewの薄いシェルで、UIはReact+TypeScript製。GitHub上のmanifest.jsonのカタログを読み込んで表示する。JSブリッジ経由でAPKはDownloadManagerでダウンロード後にパッケージインストーラを起動し、PackageManagerで現在のインストール済みバージョンを取得して未インストール/更新可能/最新の状態を判別する。APKとPWAをタブで分け、カテゴリ絞り込み・検索・バージョン履歴表示に対応する。",
-      "sourceRepository": "shimatoshi/app-store"
+      "sourceRepository": "shimatoshi/app-store",
+      "latestVersion": "2.4+build.2",
+      "updatedAt": "2026-10-19T10:24:50Z"
     },
     {
       "id": "transit-pwa",
