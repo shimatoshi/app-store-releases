@@ -353,7 +353,18 @@
       "screenshots": [
         "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/url-board.png"
       ],
-      "sourceRepository": "shimatoshi/url-board"
+      "sourceRepository": "shimatoshi/url-board",
+      "versions": [
+        {
+          "versionName": "1.0.0+0a4d39eb5818",
+          "date": "2026-10-14T06:02:20Z",
+          "sourceCommit": "0a4d39eb5818caa1db7097d99bdd63e6f140e48f",
+          "changelog": "Register PWA version in Store after successful production deployment",
+          "releaseUrl": "https://github.com/shimatoshi/url-board/releases/tag/v1.0.0%2B0a4d39eb5818"
+        }
+      ],
+      "latestVersion": "1.0.0+0a4d39eb5818",
+      "updatedAt": "2026-10-14T06:02:20Z"
     },
     {
       "id": "shimatube",
@@ -416,7 +427,18 @@
       "screenshots": [
         "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/toshiyuki-tools.png"
       ],
-      "sourceRepository": "shimatoshi/toshiyuki-tools"
+      "sourceRepository": "shimatoshi/toshiyuki-tools",
+      "versions": [
+        {
+          "versionName": "1.0.0+ea01b5d63b4d",
+          "date": "2026-10-14T06:02:43Z",
+          "sourceCommit": "ea01b5d63b4d20e158905b752821e5ca2bfa1841",
+          "changelog": "Register PWA version in Store after successful production deployment",
+          "releaseUrl": "https://github.com/shimatoshi/toshiyuki-tools/releases/tag/v1.0.0%2Bea01b5d63b4d"
+        }
+      ],
+      "latestVersion": "1.0.0+ea01b5d63b4d",
+      "updatedAt": "2026-10-14T06:02:43Z"
     },
     {
       "id": "wifi-free-map",
@@ -501,7 +523,18 @@
       "screenshots": [
         "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/screenshots/shimagle.png"
       ],
-      "sourceRepository": "shimatoshi/Shimagle"
+      "sourceRepository": "shimatoshi/Shimagle",
+      "versions": [
+        {
+          "versionName": "0.0.0+45c1551a53fd",
+          "date": "2026-10-14T06:02:53Z",
+          "sourceCommit": "45c1551a53fda8ea5313c4567198adec540c9f2b",
+          "changelog": "Register PWA version in Store after successful production deployment",
+          "releaseUrl": "https://github.com/shimatoshi/Shimagle/releases/tag/v0.0.0%2B45c1551a53fd"
+        }
+      ],
+      "latestVersion": "0.0.0+45c1551a53fd",
+      "updatedAt": "2026-10-14T06:02:53Z"
     },
     {
       "id": "gen5-battle-platform",
@@ -523,8 +556,36 @@
       "icon": "🎬",
       "description": "フリック操作の動画プレイヤー",
       "category": "メディア",
-      "versions": [],
-      "sourceRepository": "shimatoshi/FlickPlayer"
+      "versions": [
+        {
+          "versionName": "1.0+build.4",
+          "date": "2026-10-19T09:21:49Z",
+          "sourceCommit": "2259b08a90002da0b3b906962b7dbe4fc8a430ba",
+          "changelog": "ファイル操作・音声抽出のバグ修正: 移動時の削除失敗検知、スキャン完了カウントのアトミック化、./.. 名の拒否、抽出失敗時の残骸削除とAACトラック選択",
+          "releaseUrl": "https://github.com/shimatoshi/app-store-releases/releases/tag/flickplayer-v1.0%2Bbuild.4",
+          "versionCode": 1000004,
+          "size": 3394032,
+          "sha256": "298b61dd41b1410d9f3ed751c7d99715cc9e427ecdf7bc8b03fcaa5961fa2147",
+          "signingCertificateSha256": "7e70d718278fedad4e2b43932cc2ece188fad7e68d049336266fd12e151c1201",
+          "apkUrl": "https://github.com/shimatoshi/app-store-releases/releases/download/flickplayer-v1.0%2Bbuild.4/flickplayer-v1.0%2Bbuild.4.apk"
+        },
+        {
+          "versionName": "1.0+build.3",
+          "date": "2026-10-14T06:06:43Z",
+          "sourceCommit": "5a9fb6f8f35c483d3862667e8f4bfaa808c60af0",
+          "changelog": "Rebuild Store release with hosted Android SDK resource compiler",
+          "releaseUrl": "https://github.com/shimatoshi/app-store-releases/releases/tag/flickplayer-v1.0%2Bbuild.3",
+          "versionCode": 1000003,
+          "size": 3394032,
+          "sha256": "deca19c11e99ade57b1b5f5ce97f4fc8db2423ac80cddb0c0a5338d4638e9bba",
+          "signingCertificateSha256": "7e70d718278fedad4e2b43932cc2ece188fad7e68d049336266fd12e151c1201",
+          "apkUrl": "https://github.com/shimatoshi/app-store-releases/releases/download/flickplayer-v1.0%2Bbuild.3/flickplayer-v1.0%2Bbuild.3.apk"
+        }
+      ],
+      "sourceRepository": "shimatoshi/FlickPlayer",
+      "packageName": "com.flick.player",
+      "latestVersion": "1.0+build.4",
+      "updatedAt": "2026-10-19T09:21:49Z"
     },
     {
       "id": "termux-app",
