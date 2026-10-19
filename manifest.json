@@ -11,7 +11,6 @@
         {
           "versionCode": 7,
           "versionName": "2.2",
-          "apkUrl": "https://github.com/shimatoshi/app-store-releases/releases/download/flickjp-v7/flickjp.apk",
           "size": 47838772,
           "sha256": "e56ba931601e23ab9f54dcdeb84a6641dfb19397c882b2bb676d59a07d1d6448",
           "changelog": "自作フリック日本語IME",
@@ -33,7 +32,6 @@
         {
           "versionCode": 9,
           "versionName": "0.9",
-          "apkUrl": "https://github.com/shimatoshi/app-store-releases/releases/download/kiwi-engine-v9/kiwi-engine.apk",
           "size": 24673782,
           "sha256": "1fd47d1dcbb0c4ef8ac6094f490c7c4f08efce0d11b516000433e3fef8d4db45",
           "changelog": "自作ZIMオフライン書庫ビューワー",
@@ -55,7 +53,6 @@
         {
           "versionCode": 1,
           "versionName": "1.0",
-          "apkUrl": "https://github.com/shimatoshi/app-store-releases/releases/download/map-app-v1/map-app.apk",
           "size": 19744476,
           "sha256": "6860284ff5849c7833318ce60493e7377491d421f619d79812c7c4396188f782",
           "changelog": "OsmAnd代替のオフライン地図アプリ",
@@ -472,7 +469,6 @@
         {
           "versionCode": 9,
           "versionName": "1.9",
-          "apkUrl": "https://github.com/shimatoshi/app-store-releases/releases/download/sniffer-browser-v9/sniffer-browser.apk",
           "size": 141181,
           "sha256": "e474137959e9c6e97762a6eceaf478ff5b85ed0f6faf5724834dfedd1bce7ec8",
           "changelog": "Gobieアイコン刷新、各種機能追加(v1.5〜1.9)",
@@ -481,7 +477,6 @@
         {
           "versionCode": 4,
           "versionName": "1.4",
-          "apkUrl": "https://github.com/shimatoshi/app-store-releases/releases/download/sniffer-browser-v4/sniffer-browser.apk",
           "size": 132261,
           "sha256": "e2f11001e7e1ebf482ecda16b34c38e77e791afc6a050c23e75b497d9cb4758d",
           "changelog": "広告ブロック・メディア検出/HLSダウンロード・PWAインストール管理を備えたWebViewブラウザ",
