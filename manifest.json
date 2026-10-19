@@ -9,6 +9,18 @@
       "description": "自作フリック日本語IME",
       "versions": [
         {
+          "versionName": "2.8+build.2",
+          "date": "2026-10-19T11:22:56Z",
+          "sourceCommit": "26a683634f282787a1b5214fedb4ba50a4635ca9",
+          "changelog": "Store配信用CIビルド: 署名鍵をオーナー鍵に統一し現状のAPKを再公開(機能変更なし)",
+          "releaseUrl": "https://github.com/shimatoshi/app-store-releases/releases/tag/flickjp-v2.8%2Bbuild.2",
+          "versionCode": 1000002,
+          "size": 75185,
+          "sha256": "feba78148778f8062520505a649cb6144d442b07ea495b25281c77ee49c953c2",
+          "signingCertificateSha256": "a8a09b64c64d5ff67b06a7e7eeeddbc3e8d3792391a5166c1e698b691714e97e",
+          "apkUrl": "https://github.com/shimatoshi/app-store-releases/releases/download/flickjp-v2.8%2Bbuild.2/flickjp-v2.8%2Bbuild.2.apk"
+        },
+        {
           "versionCode": 7,
           "versionName": "2.2",
           "size": 47838772,
@@ -19,7 +31,9 @@
       ],
       "category": "入力・システム",
       "longDescription": "辞書(SKK-JISYO.L由来、約13万語)をヒープに載せず、APK内の非圧縮アセットに対してバイト単位の二分探索で引く独自実装で、メモリ消費とAPKサイズ(約4.2MB)を最小化している。フリック12キー配列で中央文字を大きく表示し、方向ガイドはタッチ時にポップアップ表示する。完全一致+最長一致の貪欲文節分割によるかな漢字変換とひらがな/カタカナ候補提示に対応する。キーボードを左右に寄せられる片手入力モードと、直近1文字を小書き/濁点/半濁点に切り替える専用キーを備える。",
-      "sourceRepository": "shimatoshi/flickjp"
+      "sourceRepository": "shimatoshi/flickjp",
+      "latestVersion": "2.8+build.2",
+      "updatedAt": "2026-10-19T11:22:56Z"
     },
     {
       "id": "kiwi-engine",
@@ -29,6 +43,18 @@
       "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/kiwi-engine.png",
       "description": "自作ZIMオフライン書庫ビューワー",
       "versions": [
+        {
+          "versionName": "0.4+build.12",
+          "date": "2026-10-19T11:22:51Z",
+          "sourceCommit": "04eb4cc0a9272d0e20362d51c8ffbf7ba2accbde",
+          "changelog": "Store配信用CIビルド: 署名鍵をオーナー鍵に統一し現状のAPKを再公開(機能変更なし)",
+          "releaseUrl": "https://github.com/shimatoshi/app-store-releases/releases/tag/kiwi-engine-v0.4%2Bbuild.12",
+          "versionCode": 1000012,
+          "size": 23199914,
+          "sha256": "87a59ac1f1ea480acde1430e3cbef5d314c5c321fdd840542f4583f2b946d448",
+          "signingCertificateSha256": "a8a09b64c64d5ff67b06a7e7eeeddbc3e8d3792391a5166c1e698b691714e97e",
+          "apkUrl": "https://github.com/shimatoshi/app-store-releases/releases/download/kiwi-engine-v0.4%2Bbuild.12/kiwi-engine-v0.4%2Bbuild.12.apk"
+        },
         {
           "versionCode": 9,
           "versionName": "0.9",
@@ -40,7 +66,9 @@
       ],
       "category": "メディア",
       "longDescription": "kiwix-serveをバックエンド(localhost:8099)に据えたテーマ付きWebView+ウィジェットのZIM書庫ビューワー。kiwix-serveのXapian全文検索を使った端末内ZIM横断検索、ランダム記事ピックアップ(「今日のZIM」)、ホーム画面ウィジェット(検索バー/新着/今日のピック)を軸に設計されている。既存の自作ブラウザ(sniffer/Gobie)のウィジェット配管を流用する方針。",
-      "sourceRepository": "shimatoshi/kiwi-engine"
+      "sourceRepository": "shimatoshi/kiwi-engine",
+      "latestVersion": "0.4+build.12",
+      "updatedAt": "2026-10-19T11:22:51Z"
     },
     {
       "id": "map-app",
@@ -50,6 +78,18 @@
       "icon": "https://raw.githubusercontent.com/shimatoshi/app-store-releases/main/icons/map-app.png",
       "description": "OsmAnd代替のオフライン地図アプリ",
       "versions": [
+        {
+          "versionName": "1.3+build.3",
+          "date": "2026-10-19T11:23:06Z",
+          "sourceCommit": "3007a0bb99bd7ae4b7544ea359515f7f845e388f",
+          "changelog": "Store配信用CIビルド: 署名鍵をオーナー鍵に統一し現状のAPKを再公開(機能変更なし)",
+          "releaseUrl": "https://github.com/shimatoshi/app-store-releases/releases/tag/map-app-v1.3%2Bbuild.3",
+          "versionCode": 1000003,
+          "size": 981146225,
+          "sha256": "9de55ed321a3f11a32f2d08ffb362f4b5dc4993f5df264174998360a73265d4c",
+          "signingCertificateSha256": "a8a09b64c64d5ff67b06a7e7eeeddbc3e8d3792391a5166c1e698b691714e97e",
+          "apkUrl": "https://github.com/shimatoshi/app-store-releases/releases/download/map-app-v1.3%2Bbuild.3/map-app-v1.3%2Bbuild.3.apk"
+        },
         {
           "versionCode": 1,
           "versionName": "1.0",
@@ -61,7 +101,9 @@
       ],
       "category": "地図・移動",
       "longDescription": "MapLibre(Mapboxパッケージ名を維持したフォーク)ベースで、mbtilesの等高線などをSAF経由でユーザーが追加できるベクタレイヤー機構を持つ。BRouterをオフライン経路探索エンジンとして使い、車/徒歩/自転車のプロファイル切替とライブ案内(ターンバイターン、フォアグラウンドサービス)に対応する。検索は住所(ISJ街区レベル)とPOIの両方をカバーし、ユーザー独自POIの追加・表示も可能。公共交通の経路案内は自前実装せず、最寄り駅名でtransit-pwaを埋め込みWebViewパネルとして地図上に呼び出す連携方式を取る。",
-      "sourceRepository": "shimatoshi/map-app"
+      "sourceRepository": "shimatoshi/map-app",
+      "latestVersion": "1.3+build.3",
+      "updatedAt": "2026-10-19T11:23:06Z"
     },
     {
       "id": "app-store",
@@ -467,6 +509,18 @@
       "category": "メディア",
       "versions": [
         {
+          "versionName": "1.10+build.3",
+          "date": "2026-10-19T11:22:53Z",
+          "sourceCommit": "f59d5a0bd87f6d95d097c4970c5b21684275a2e0",
+          "changelog": "Store配信用CIビルド: 署名鍵をオーナー鍵に統一し現状のAPKを再公開(機能変更なし)",
+          "releaseUrl": "https://github.com/shimatoshi/sniffer-browser/releases/tag/v1.10%2Bbuild.3",
+          "versionCode": 1000003,
+          "size": 145271,
+          "sha256": "3611e177b8358ef2ea4ebbd29155f6809c96b2b15597a348c468b4ac1f026a95",
+          "signingCertificateSha256": "a8a09b64c64d5ff67b06a7e7eeeddbc3e8d3792391a5166c1e698b691714e97e",
+          "apkUrl": "https://github.com/shimatoshi/sniffer-browser/releases/download/v1.10%2Bbuild.3/sniffer-browser-v1.10%2Bbuild.3.apk"
+        },
+        {
           "versionCode": 9,
           "versionName": "1.9",
           "size": 141181,
@@ -484,7 +538,9 @@
         }
       ],
       "longDescription": "独自の広告ブロッカーと、ページ内video/audio要素の再生状態を監視するメディア検出、HLS(m3u8)動画のダウンロード機能を備える。全画面動画のネイティブPiP(ホーム移動で小窓化)とバックグラウンド再生にも対応する。それに加えてPWAのインストール/更新/事前ウォームアップ/スケジューリング、ホーム画面ウィジェット(検索バー・フィード記事)、音声検索、ユーザースクリプト実行、オフラインページ保存など、単純なブラウザを超えた機能を多数持つ。",
-      "sourceRepository": "shimatoshi/sniffer-browser"
+      "sourceRepository": "shimatoshi/sniffer-browser",
+      "latestVersion": "1.10+build.3",
+      "updatedAt": "2026-10-19T11:22:53Z"
     },
     {
       "id": "weather-pwa",
@@ -561,6 +617,18 @@
       "category": "メディア",
       "versions": [
         {
+          "versionName": "1.0+build.5",
+          "date": "2026-10-19T11:22:48Z",
+          "sourceCommit": "1f57ccc3795dad756cf82e959cb98abdf61ef0e6",
+          "changelog": "Store配信用CIビルド: 現状のAPKを再公開(機能変更なし)",
+          "releaseUrl": "https://github.com/shimatoshi/app-store-releases/releases/tag/flickplayer-v1.0%2Bbuild.5",
+          "versionCode": 1000005,
+          "size": 3394032,
+          "sha256": "a562bbd8bda1561b847d5de2b15cd3e7f3353c4cf2c34a080e54d19556d19d29",
+          "signingCertificateSha256": "7e70d718278fedad4e2b43932cc2ece188fad7e68d049336266fd12e151c1201",
+          "apkUrl": "https://github.com/shimatoshi/app-store-releases/releases/download/flickplayer-v1.0%2Bbuild.5/flickplayer-v1.0%2Bbuild.5.apk"
+        },
+        {
           "versionName": "1.0+build.4",
           "date": "2026-10-19T09:21:49Z",
           "sourceCommit": "2259b08a90002da0b3b906962b7dbe4fc8a430ba",
@@ -587,8 +655,8 @@
       ],
       "sourceRepository": "shimatoshi/FlickPlayer",
       "packageName": "com.flick.player",
-      "latestVersion": "1.0+build.4",
-      "updatedAt": "2026-10-19T09:21:49Z"
+      "latestVersion": "1.0+build.5",
+      "updatedAt": "2026-10-19T11:22:48Z"
     },
     {
       "id": "termux-app",
