@@ -94,6 +94,16 @@ def main():
         directory.mkdir(parents=True, exist_ok=True)
         run('gh', 'release', 'download', 'basemap-japan-v1', '--repo', os.environ['GITHUB_REPOSITORY'],
             '--pattern', 'japan.mbtiles', '--dir', str(directory), '--clobber')
+        # POI検索・地図表示POI・ルーティングも同梱(dev-releaseのfull版と同じ構成)。
+        repo = os.environ['GITHUB_REPOSITORY']
+        segments = directory / 'segments4'
+        segments.mkdir(parents=True, exist_ok=True)
+        run('gh', 'release', 'download', 'poi-tiles-v1', '--repo', repo,
+            '--pattern', 'poi.mbtiles', '--dir', str(directory), '--clobber')
+        run('gh', 'release', 'download', 'routing-data-v1', '--repo', repo,
+            '--pattern', '*.rd5', '--dir', str(segments), '--clobber')
+        run('gh', 'release', 'download', 'search-db-v1', '--repo', repo,
+            '--pattern', 'poi.sqlite', '--pattern', 'address.sqlite', '--dir', str(directory), '--clobber')
         run('bash', 'build_tp.sh')
         apk = 'build/map-app.apk'
     elif recipe == 'flickplayer':
