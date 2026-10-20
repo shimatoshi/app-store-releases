@@ -79,6 +79,18 @@
       "description": "OsmAnd代替のオフライン地図アプリ",
       "versions": [
         {
+          "versionName": "1.3+build.4",
+          "date": "2026-10-19T11:23:06Z",
+          "sourceCommit": "3007a0bb99bd7ae4b7544ea359515f7f845e388f",
+          "changelog": "Store配信用CIビルド: 署名鍵をオーナー鍵に統一し現状のAPKを再公開(機能変更なし)",
+          "releaseUrl": "https://github.com/shimatoshi/app-store-releases/releases/tag/map-app-v1.3%2Bbuild.4",
+          "versionCode": 1000004,
+          "size": 1760997367,
+          "sha256": "360222e1f2f26106ee7ed405f54d6c6324a8899d30f8fa09bde492a6ddfb2495",
+          "signingCertificateSha256": "a8a09b64c64d5ff67b06a7e7eeeddbc3e8d3792391a5166c1e698b691714e97e",
+          "apkUrl": "https://github.com/shimatoshi/app-store-releases/releases/download/map-app-v1.3%2Bbuild.4/map-app-v1.3%2Bbuild.4.apk"
+        },
+        {
           "versionName": "1.3+build.3",
           "date": "2026-10-19T11:23:06Z",
           "sourceCommit": "3007a0bb99bd7ae4b7544ea359515f7f845e388f",
@@ -102,7 +114,7 @@
       "category": "地図・移動",
       "longDescription": "MapLibre(Mapboxパッケージ名を維持したフォーク)ベースで、mbtilesの等高線などをSAF経由でユーザーが追加できるベクタレイヤー機構を持つ。BRouterをオフライン経路探索エンジンとして使い、車/徒歩/自転車のプロファイル切替とライブ案内(ターンバイターン、フォアグラウンドサービス)に対応する。検索は住所(ISJ街区レベル)とPOIの両方をカバーし、ユーザー独自POIの追加・表示も可能。公共交通の経路案内は自前実装せず、最寄り駅名でtransit-pwaを埋め込みWebViewパネルとして地図上に呼び出す連携方式を取る。",
       "sourceRepository": "shimatoshi/map-app",
-      "latestVersion": "1.3+build.3",
+      "latestVersion": "1.3+build.4",
       "updatedAt": "2026-10-19T11:23:06Z"
     },
     {
