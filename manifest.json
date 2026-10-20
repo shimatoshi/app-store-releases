@@ -343,6 +343,48 @@
       "sourceRepository": "shimatoshi/pokechampions-calc",
       "versions": [
         {
+          "versionName": "1.0.0+fe1d9fd3fd21",
+          "date": "2026-10-20T06:36:15Z",
+          "sourceCommit": "fe1d9fd3fd21ef0c8ec73d182b8a5e68ffb31515",
+          "changelog": "Add per-individual stats (own selection/lead rates, opponent matchup win rates) to records",
+          "releaseUrl": "https://github.com/shimatoshi/pokechampions-calc/releases/tag/v1.0.0%2Bfe1d9fd3fd21"
+        },
+        {
+          "versionName": "1.0.0+2f1b19ce3b91",
+          "date": "2026-10-20T06:22:34Z",
+          "sourceCommit": "2f1b19ce3b91612b6e0bd64845efb9db20db27bf",
+          "changelog": "Auto-record finished sim battles with team info and add per-team win-rate summary",
+          "releaseUrl": "https://github.com/shimatoshi/pokechampions-calc/releases/tag/v1.0.0%2B2f1b19ce3b91"
+        },
+        {
+          "versionName": "1.0.0+33a1a5be8a14",
+          "date": "2026-10-20T06:19:15Z",
+          "sourceCommit": "33a1a5be8a14163a8b4410f05c0fe8e6a170f66c",
+          "changelog": "Team-centric run flow: run team in sim, persist sim parties, opponent teams, text import",
+          "releaseUrl": "https://github.com/shimatoshi/pokechampions-calc/releases/tag/v1.0.0%2B33a1a5be8a14"
+        },
+        {
+          "versionName": "1.0.0+41a521087dd5",
+          "date": "2026-10-20T06:12:53Z",
+          "sourceCommit": "41a521087dd5d50b0ddbc2e0a30208cbb9ba4a77",
+          "changelog": "Share BOX sync with simulator saves, protect in-use BOX entries, prefer linked uid on duplicates",
+          "releaseUrl": "https://github.com/shimatoshi/pokechampions-calc/releases/tag/v1.0.0%2B41a521087dd5"
+        },
+        {
+          "versionName": "1.0.0+bbbf16a687da",
+          "date": "2026-10-20T05:41:34Z",
+          "sourceCommit": "bbbf16a687da27633ca56cb3432abe184fb56fb1",
+          "changelog": "Sync team members with BOX individuals and add per-party role memos",
+          "releaseUrl": "https://github.com/shimatoshi/pokechampions-calc/releases/tag/v1.0.0%2Bbbbf16a687da"
+        },
+        {
+          "versionName": "1.0.0+75694a5a5c32",
+          "date": "2026-10-20T05:31:08Z",
+          "sourceCommit": "75694a5a5c323970c663a51b8b2daf2ac82175dd",
+          "changelog": "Unify toast, loading and empty states; add page fade; bump cache to v55",
+          "releaseUrl": "https://github.com/shimatoshi/pokechampions-calc/releases/tag/v1.0.0%2B75694a5a5c32"
+        },
+        {
           "versionName": "1.0.0+a372fa8ab560",
           "date": "2026-10-20T05:02:38Z",
           "sourceCommit": "a372fa8ab560c7e442438e961062430a07ba993a",
@@ -392,8 +434,8 @@
           "releaseUrl": "https://github.com/shimatoshi/pokechampions-calc/releases/tag/v1.0.0%2B3a46a0af6753"
         }
       ],
-      "latestVersion": "1.0.0+a372fa8ab560",
-      "updatedAt": "2026-10-20T05:02:38Z"
+      "latestVersion": "1.0.0+fe1d9fd3fd21",
+      "updatedAt": "2026-10-20T06:36:15Z"
     },
     {
       "id": "url-board",
