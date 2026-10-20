@@ -343,6 +343,13 @@
       "sourceRepository": "shimatoshi/pokechampions-calc",
       "versions": [
         {
+          "versionName": "1.0.0+a372fa8ab560",
+          "date": "2026-10-20T05:02:38Z",
+          "sourceCommit": "a372fa8ab560c7e442438e961062430a07ba993a",
+          "changelog": "Fix damage calc, data-loss and UI bugs found in full review",
+          "releaseUrl": "https://github.com/shimatoshi/pokechampions-calc/releases/tag/v1.0.0%2Ba372fa8ab560"
+        },
+        {
           "versionName": "1.0.0+629538622699",
           "date": "2026-10-15T08:23:42Z",
           "sourceCommit": "6295386226998856a5b426f8a14e9db3c592c1fd",
@@ -385,8 +392,8 @@
           "releaseUrl": "https://github.com/shimatoshi/pokechampions-calc/releases/tag/v1.0.0%2B3a46a0af6753"
         }
       ],
-      "latestVersion": "1.0.0+629538622699",
-      "updatedAt": "2026-10-15T08:23:42Z"
+      "latestVersion": "1.0.0+a372fa8ab560",
+      "updatedAt": "2026-10-20T05:02:38Z"
     },
     {
       "id": "url-board",
