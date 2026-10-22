@@ -497,7 +497,67 @@
       "url": "https://dmonline2.vercel.app",
       "category": "ゲーム",
       "longDescription": "デュエルマスターズのオンライン対戦・デッキ構築アプリ。ロビー・ログイン・プロフィールに加え、ドラッグ&ドロップでカードを操作する対戦盤面(ゾーン、スタックメニュー、チャットサイドバー)を実装している。デッキビルダー・デッキ一覧・カードライブラリ、デッキ画像生成機能、BBS(掲示板)機能も統合されている。バックエンドはPython製でPCサーバー上に常時稼働している。",
-      "sourceRepository": "shimatoshi/dmonline2"
+      "sourceRepository": "shimatoshi/dmonline2",
+      "versions": [
+        {
+          "versionName": "0.0.0+6c3dd938988c",
+          "date": "2026-10-22T06:07:34Z",
+          "sourceCommit": "6c3dd938988c4696925aa33d47b68761bf1b83fe",
+          "changelog": "style: 山上・山下ゾーンを超次元/墓地と同サイズに拡大",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B6c3dd938988c"
+        },
+        {
+          "versionName": "0.0.0+fd61aafb7347",
+          "date": "2026-10-22T05:53:01Z",
+          "sourceCommit": "fd61aafb7347aaf5cb77dd66e6d43b1bca99f0af",
+          "changelog": "feat: 山上・山下のドロップゾーンを山札/超次元の下に追加",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Bfd61aafb7347"
+        },
+        {
+          "versionName": "0.0.0+86f718133ae8",
+          "date": "2026-10-22T05:42:35Z",
+          "sourceCommit": "86f718133ae867f8285e4f645c986f60591ae68a",
+          "changelog": "feat: 長押しでカード拡大(離すと解除)、盤面の陣営色分け、移動トースト削除",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B86f718133ae8"
+        },
+        {
+          "versionName": "0.0.0+65cd60eadebf",
+          "date": "2026-10-22T05:22:47Z",
+          "sourceCommit": "65cd60eadebf6ac1c06ed5856254c1b751723391",
+          "changelog": "fix: ドラッグ処理をPointer Events化しPCマウス操作に対応",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B65cd60eadebf"
+        },
+        {
+          "versionName": "0.0.0+1635602e981d",
+          "date": "2026-10-22T05:15:07Z",
+          "sourceCommit": "1635602e981d1507fb0257ba36b47bdaf68bd729",
+          "changelog": "fix: マナゾーンが空でもドロップできる最小高さを確保",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B1635602e981d"
+        },
+        {
+          "versionName": "0.0.0+8237b1deba8f",
+          "date": "2026-10-22T04:55:03Z",
+          "sourceCommit": "8237b1deba8f7a0f8f68b1f5337f7e20c10d33c1",
+          "changelog": "style: 角丸6種を変数に統一し、文明色をCSS変数化",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B8237b1deba8f"
+        },
+        {
+          "versionName": "0.0.0+792f01c53b29",
+          "date": "2026-10-22T04:24:05Z",
+          "sourceCommit": "792f01c53b29519f0c1283f94931dcfccf48a1fb",
+          "changelog": "chore: 本番自動デプロイの確認(main/master同時push)",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B792f01c53b29"
+        },
+        {
+          "versionName": "0.0.0+a7a695f16787",
+          "date": "2026-10-22T03:03:43Z",
+          "sourceCommit": "a7a695f16787a4da5f62c4b1ae141eafa1c20861",
+          "changelog": "feat: お知らせ欄・ロビーの1画面化・プロフィール画面の拡充",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Ba7a695f16787"
+        }
+      ],
+      "latestVersion": "0.0.0+6c3dd938988c",
+      "updatedAt": "2026-10-22T06:07:34Z"
     },
     {
       "id": "research-zim",
@@ -570,6 +630,78 @@
       "category": "メディア",
       "versions": [
         {
+          "versionName": "1.10+build.9",
+          "date": "2026-10-22T05:55:37Z",
+          "sourceCommit": "bdbaaa1b796325d5fb516465a5b59811903a82ed",
+          "changelog": "アドレスバーのスワイプでタブ切替、タブカードのスワイプで閉じる",
+          "releaseUrl": "https://github.com/shimatoshi/sniffer-browser/releases/tag/v1.10%2Bbuild.9",
+          "versionCode": 1000009,
+          "size": 149367,
+          "sha256": "28a24588afd24e9ba4e6ed18d3eb59a77abe6cfcdfcc30be66e45c4cbe40ea27",
+          "signingCertificateSha256": "a8a09b64c64d5ff67b06a7e7eeeddbc3e8d3792391a5166c1e698b691714e97e",
+          "apkUrl": "https://github.com/shimatoshi/sniffer-browser/releases/download/v1.10%2Bbuild.9/sniffer-browser-v1.10%2Bbuild.9.apk"
+        },
+        {
+          "versionName": "1.10+build.8",
+          "date": "2026-10-22T05:26:45Z",
+          "sourceCommit": "0e477ffbfd5272a2583ef39741e44542e34d5185",
+          "changelog": "タブ一覧で長押しドラッグによる並べ替えを追加",
+          "releaseUrl": "https://github.com/shimatoshi/sniffer-browser/releases/tag/v1.10%2Bbuild.8",
+          "versionCode": 1000008,
+          "size": 145271,
+          "sha256": "6d265df79756ff1dad2d793c37a633229f1a15d3d44d6e33ed475a710706ad45",
+          "signingCertificateSha256": "a8a09b64c64d5ff67b06a7e7eeeddbc3e8d3792391a5166c1e698b691714e97e",
+          "apkUrl": "https://github.com/shimatoshi/sniffer-browser/releases/download/v1.10%2Bbuild.8/sniffer-browser-v1.10%2Bbuild.8.apk"
+        },
+        {
+          "versionName": "1.10+build.7",
+          "date": "2026-10-22T04:35:18Z",
+          "sourceCommit": "d76ce599ce38abbe1fe40c2652130673c54050dc",
+          "changelog": "タブ一覧を2列グリッド化、メニューにページ内検索と共有を追加",
+          "releaseUrl": "https://github.com/shimatoshi/sniffer-browser/releases/tag/v1.10%2Bbuild.7",
+          "versionCode": 1000007,
+          "size": 149367,
+          "sha256": "223bf6402d65a719d4c04a6cf4a2da69c3017b080ce6fa4deb26898634b25973",
+          "signingCertificateSha256": "a8a09b64c64d5ff67b06a7e7eeeddbc3e8d3792391a5166c1e698b691714e97e",
+          "apkUrl": "https://github.com/shimatoshi/sniffer-browser/releases/download/v1.10%2Bbuild.7/sniffer-browser-v1.10%2Bbuild.7.apk"
+        },
+        {
+          "versionName": "1.10+build.6",
+          "date": "2026-10-22T04:15:59Z",
+          "sourceCommit": "3a547b95f8893fa2d27283091e4a212c75ce3f7d",
+          "changelog": "メニューを3グループに再構成、閉じたタブの復活、DLバッジの強調",
+          "releaseUrl": "https://github.com/shimatoshi/sniffer-browser/releases/tag/v1.10%2Bbuild.6",
+          "versionCode": 1000006,
+          "size": 145271,
+          "sha256": "80127e950b2359c72e4606e3c1faf06a9e5d4d3f7060916a82de7711ab0fea8c",
+          "signingCertificateSha256": "a8a09b64c64d5ff67b06a7e7eeeddbc3e8d3792391a5166c1e698b691714e97e",
+          "apkUrl": "https://github.com/shimatoshi/sniffer-browser/releases/download/v1.10%2Bbuild.6/sniffer-browser-v1.10%2Bbuild.6.apk"
+        },
+        {
+          "versionName": "1.10+build.5",
+          "date": "2026-10-22T02:37:24Z",
+          "sourceCommit": "56cd18661089efb40033606abe73ab0bb0283b26",
+          "changelog": "タブ一覧にサムネイル追加、記事ウィジェットに取得失敗表示",
+          "releaseUrl": "https://github.com/shimatoshi/sniffer-browser/releases/tag/v1.10%2Bbuild.5",
+          "versionCode": 1000005,
+          "size": 145271,
+          "sha256": "86e0ace1ecb27a18aa3ecb29317c2679a56f29b80db699e73b582b3f73ad293d",
+          "signingCertificateSha256": "a8a09b64c64d5ff67b06a7e7eeeddbc3e8d3792391a5166c1e698b691714e97e",
+          "apkUrl": "https://github.com/shimatoshi/sniffer-browser/releases/download/v1.10%2Bbuild.5/sniffer-browser-v1.10%2Bbuild.5.apk"
+        },
+        {
+          "versionName": "1.10+build.4",
+          "date": "2026-10-22T02:31:18Z",
+          "sourceCommit": "4907e24ce04e5c782153953a41eb475b5261771c",
+          "changelog": "UI監査対応: dp化、ダークテーマ統一、タッチターゲット48dp、エラー画面追加",
+          "releaseUrl": "https://github.com/shimatoshi/sniffer-browser/releases/tag/v1.10%2Bbuild.4",
+          "versionCode": 1000004,
+          "size": 141175,
+          "sha256": "fb2f4fc2d51ccaacee96d748b9529d8bfbb540ef884397e2ebe4ccb3ddd7ca12",
+          "signingCertificateSha256": "a8a09b64c64d5ff67b06a7e7eeeddbc3e8d3792391a5166c1e698b691714e97e",
+          "apkUrl": "https://github.com/shimatoshi/sniffer-browser/releases/download/v1.10%2Bbuild.4/sniffer-browser-v1.10%2Bbuild.4.apk"
+        },
+        {
           "versionName": "1.10+build.3",
           "date": "2026-10-19T11:22:53Z",
           "sourceCommit": "f59d5a0bd87f6d95d097c4970c5b21684275a2e0",
@@ -600,8 +732,8 @@
       ],
       "longDescription": "独自の広告ブロッカーと、ページ内video/audio要素の再生状態を監視するメディア検出、HLS(m3u8)動画のダウンロード機能を備える。全画面動画のネイティブPiP(ホーム移動で小窓化)とバックグラウンド再生にも対応する。それに加えてPWAのインストール/更新/事前ウォームアップ/スケジューリング、ホーム画面ウィジェット(検索バー・フィード記事)、音声検索、ユーザースクリプト実行、オフラインページ保存など、単純なブラウザを超えた機能を多数持つ。",
       "sourceRepository": "shimatoshi/sniffer-browser",
-      "latestVersion": "1.10+build.3",
-      "updatedAt": "2026-10-19T11:22:53Z"
+      "latestVersion": "1.10+build.9",
+      "updatedAt": "2026-10-22T05:55:37Z"
     },
     {
       "id": "weather-pwa",
