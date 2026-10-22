@@ -500,6 +500,125 @@
       "sourceRepository": "shimatoshi/dmonline2",
       "versions": [
         {
+          "versionName": "0.0.0+0986389e81bd",
+          "date": "2026-10-22T11:14:48Z",
+          "sourceCommit": "0986389e81bd8c1c8aaeda0c963f66c932350e67",
+          "changelog": "docs: 操作ヘルプを全面刷新、お知らせに今回の更新内容を追記",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B0986389e81bd"
+        },
+        {
+          "versionName": "0.0.0+56729a8ad363",
+          "date": "2026-10-22T11:11:45Z",
+          "sourceCommit": "56729a8ad3639f2edda682cf4814a8b230b7f982",
+          "changelog": "fix: 拡大の残留防止、シールド行を広く・一時ゾーンを墓地の上へ・山上山下を山札/墓地の真下へ再配置",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B56729a8ad363"
+        },
+        {
+          "versionName": "0.0.0+8efab9fa2ae6",
+          "date": "2026-10-22T11:06:37Z",
+          "sourceCommit": "8efab9fa2ae615d16de9ee2c09037a5a02d73f41",
+          "changelog": "feat: 一覧ボタンを全廃、攻撃/シールド処理の解決中は自動で相手に干渉可能に",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B8efab9fa2ae6"
+        },
+        {
+          "versionName": "0.0.0+f443025ad338",
+          "date": "2026-10-22T11:03:05Z",
+          "sourceCommit": "f443025ad338e757b1192b4d5c7251af87fc942e",
+          "changelog": "fix: 相手ゾーンの空表示を日本語化、サムネ系ゾーンの一覧ボタン撤去、重なりカードは長押しで内容と順番を確認",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Bf443025ad338"
+        },
+        {
+          "versionName": "0.0.0+6d3cfc1632d4",
+          "date": "2026-10-22T10:59:00Z",
+          "sourceCommit": "6d3cfc1632d443b577782a4350d0f9004e2301e1",
+          "changelog": "feat: 一覧は外側タップで閉じる・長押し拡大・タップで拡大、サムネ系ゾーンはタップで一覧、複数選択パネルの位置切替",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B6d3cfc1632d4"
+        },
+        {
+          "versionName": "0.0.0+3efe14e13379",
+          "date": "2026-10-22T10:52:46Z",
+          "sourceCommit": "3efe14e133792e3fca311e4d15fed47dfe435b07",
+          "changelog": "style: 一覧ボタンを統一して各ゾーン下へ、手札/シールドにスライドボタン、ボタンバーを下起点に",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B3efe14e13379"
+        },
+        {
+          "versionName": "0.0.0+0bf58b880c93",
+          "date": "2026-10-22T10:46:02Z",
+          "sourceCommit": "0bf58b880c9364d3335fd4206514221b8956069d",
+          "changelog": "feat: 直近で手札に加わったカードを青枠表示、ヘルプ/ログ/チャット/視点切替を右バーへ移動",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B0bf58b880c93"
+        },
+        {
+          "versionName": "0.0.0+171ccdf00bcd",
+          "date": "2026-10-22T10:41:40Z",
+          "sourceCommit": "171ccdf00bcd9123ebcfa4519289510155293dab",
+          "changelog": "feat: ブレイクされたシールドを確認ダイアログに表示、1人回しの色をプレイヤー固定に",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B171ccdf00bcd"
+        },
+        {
+          "versionName": "0.0.0+793f08cfec6c",
+          "date": "2026-10-22T10:37:02Z",
+          "sourceCommit": "793f08cfec6c214cd73c1f0494c5e5cc3192c7fa",
+          "changelog": "fix: 一時ゾーンの公開/非公開を選択カード単位に、相手の伏せカードが一覧で見える不具合を修正",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B793f08cfec6c"
+        },
+        {
+          "versionName": "0.0.0+0aba0d647654",
+          "date": "2026-10-22T10:36:12Z",
+          "sourceCommit": "0aba0d6476545a003139c0fb896b3e67f71d622d",
+          "changelog": "feat: シールド処理フロー、ブレイク前効果、マナ/シールド一覧、シールド横一列、長押しメニュー廃止",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B0aba0d647654"
+        },
+        {
+          "versionName": "0.0.0+981d66768b46",
+          "date": "2026-10-22T10:25:03Z",
+          "sourceCommit": "981d66768b468953071f1ae8253d2b6094e6d84b",
+          "changelog": "feat: 攻撃をドラッグ&ドロップで対象指定(矢印が対象に吸着)",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B981d66768b46"
+        },
+        {
+          "versionName": "0.0.0+7a85471789c2",
+          "date": "2026-10-22T10:17:00Z",
+          "sourceCommit": "7a85471789c2d6094a84f53e59c4638c0fc683c4",
+          "changelog": "feat: 相手手札のポップアップ(複数選択移動)、バトルゾーンの上スワイプによる攻撃・ブレイク選択",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B7a85471789c2"
+        },
+        {
+          "versionName": "0.0.0+beff99f9fde9",
+          "date": "2026-10-22T08:12:33Z",
+          "sourceCommit": "beff99f9fde9a883ae5008bc7021b4afac248f70",
+          "changelog": "style: 一覧ウィンドウの複数選択ボタンを下側へ移動(自分のゾーンは閉じるボタンを廃止)",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Bbeff99f9fde9"
+        },
+        {
+          "versionName": "0.0.0+6d2077fff8bf",
+          "date": "2026-10-22T08:05:40Z",
+          "sourceCommit": "6d2077fff8bfcbce548443227c5103430ed75e39",
+          "changelog": "style: 閉じるボタンを下側へ移動、ボタンバーを基本操作が下になる並びに変更",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B6d2077fff8bf"
+        },
+        {
+          "versionName": "0.0.0+db118be4ee9d",
+          "date": "2026-10-22T08:01:02Z",
+          "sourceCommit": "db118be4ee9df6205b75aacb94c29bba976886da",
+          "changelog": "feat: 盤面の複数選択(選択順で一括移動・寝起き・伏せ公開)、リセット確認文言の強化",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Bdb118be4ee9d"
+        },
+        {
+          "versionName": "0.0.0+97d145278453",
+          "date": "2026-10-22T07:36:31Z",
+          "sourceCommit": "97d145278453dbe305a1fd8c7f37eb5a67d5de53",
+          "changelog": "feat: 盤面右に操作ボタンバーを新設、一覧ボタンのトグル化、旧サイドメニュー撤去",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B97d145278453"
+        },
+        {
+          "versionName": "0.0.0+e01d5140d77f",
+          "date": "2026-10-22T07:29:12Z",
+          "sourceCommit": "e01d5140d77f293ced06e12b8218bef083b93f7d",
+          "changelog": "feat: ドローボタン・一覧ウィンドウの複数選択(選択順で一括移動)・手札一覧",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Be01d5140d77f"
+        },
+        {
           "versionName": "0.0.0+6c3dd938988c",
           "date": "2026-10-22T06:07:34Z",
           "sourceCommit": "6c3dd938988c4696925aa33d47b68761bf1b83fe",
@@ -556,8 +675,8 @@
           "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Ba7a695f16787"
         }
       ],
-      "latestVersion": "0.0.0+6c3dd938988c",
-      "updatedAt": "2026-10-22T06:07:34Z"
+      "latestVersion": "0.0.0+0986389e81bd",
+      "updatedAt": "2026-10-22T11:14:48Z"
     },
     {
       "id": "research-zim",
