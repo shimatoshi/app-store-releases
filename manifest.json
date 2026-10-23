@@ -500,6 +500,55 @@
       "sourceRepository": "shimatoshi/dmonline2",
       "versions": [
         {
+          "versionName": "0.0.0+558cc57ca622",
+          "date": "2026-10-23T10:50:20Z",
+          "sourceCommit": "558cc57ca622f38683d83e67d27e7a28c49044a8",
+          "changelog": "feat: 割り込み効果の宣言フロー(誘発元の選択・相手の許可・解決中バナー)を追加、お知らせ更新",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B558cc57ca622"
+        },
+        {
+          "versionName": "0.0.0+120516fb313f",
+          "date": "2026-10-23T10:41:23Z",
+          "sourceCommit": "120516fb313fc2f49d90aa609135aae4e965ed76",
+          "changelog": "feat: 攻撃クリーチャーのW/T/Q・ブレイカー表記から初期ブレイク数を自動設定",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B120516fb313f"
+        },
+        {
+          "versionName": "0.0.0+7b03e3d66fb4",
+          "date": "2026-10-23T10:39:26Z",
+          "sourceCommit": "7b03e3d66fb4ff158333803839d0d549070c5ebe",
+          "changelog": "feat: ブレイクをポップアップ内のシールド直接タップで指定、ブレイク数を±で増減",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B7b03e3d66fb4"
+        },
+        {
+          "versionName": "0.0.0+9eb1ea9fd675",
+          "date": "2026-10-23T10:31:13Z",
+          "sourceCommit": "9eb1ea9fd675848a1b9edfd4eb1f50b79ae8e8f7",
+          "changelog": "feat: ボタンバーに部屋終了ボタンを追加(相手側は自動でロビーへ戻る)",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B9eb1ea9fd675"
+        },
+        {
+          "versionName": "0.0.0+fd133d42c948",
+          "date": "2026-10-23T10:19:34Z",
+          "sourceCommit": "fd133d42c9485290317ca142cbd0643348ae4d69",
+          "changelog": "docs: お知らせに10/23の更新内容を追記",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Bfd133d42c948"
+        },
+        {
+          "versionName": "0.0.0+eab85bace317",
+          "date": "2026-10-23T10:17:27Z",
+          "sourceCommit": "eab85bace317ea8f80c1c86dc93d81eae7c0efd8",
+          "changelog": "feat: 右バーにカウントボタン(経過ターンと自分/相手の枚数)を追加、バーのボタンを下寄せに",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Beab85bace317"
+        },
+        {
+          "versionName": "0.0.0+007b83f8c358",
+          "date": "2026-10-23T10:04:00Z",
+          "sourceCommit": "007b83f8c358233db4d71eac92a72fca6a058207",
+          "changelog": "fix: 一時ゾーンは1枚タップ→移動先で動かせるようにし、複数選択は任意に",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B007b83f8c358"
+        },
+        {
           "versionName": "0.0.0+5a1a9de9ae3f",
           "date": "2026-10-23T07:04:06Z",
           "sourceCommit": "5a1a9de9ae3f089016a446df660cbf3fdc2db078",
@@ -717,8 +766,8 @@
           "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Ba7a695f16787"
         }
       ],
-      "latestVersion": "0.0.0+5a1a9de9ae3f",
-      "updatedAt": "2026-10-23T07:04:06Z"
+      "latestVersion": "0.0.0+558cc57ca622",
+      "updatedAt": "2026-10-23T10:50:20Z"
     },
     {
       "id": "research-zim",
