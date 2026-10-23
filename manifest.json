@@ -500,6 +500,48 @@
       "sourceRepository": "shimatoshi/dmonline2",
       "versions": [
         {
+          "versionName": "0.0.0+5a1a9de9ae3f",
+          "date": "2026-10-23T07:04:06Z",
+          "sourceCommit": "5a1a9de9ae3f089016a446df660cbf3fdc2db078",
+          "changelog": "feat: ユーザー登録カードを全員で共有(削除は登録者のみ)",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B5a1a9de9ae3f"
+        },
+        {
+          "versionName": "0.0.0+0104d0098bcf",
+          "date": "2026-10-23T06:42:42Z",
+          "sourceCommit": "0104d0098bcfb0b3118a1215929c1f21faef2df9",
+          "changelog": "feat: 新図鑑に使い方ヘルプボタンを追加",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B0104d0098bcf"
+        },
+        {
+          "versionName": "0.0.0+3ea4678d85e8",
+          "date": "2026-10-23T06:40:22Z",
+          "sourceCommit": "3ea4678d85e843c1fe1b10ab770f511cc44c3e7f",
+          "changelog": "fix: https://無しの公式URLも受け付ける",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B3ea4678d85e8"
+        },
+        {
+          "versionName": "0.0.0+e82f11578659",
+          "date": "2026-10-23T06:38:34Z",
+          "sourceCommit": "e82f11578659cd19d0db648523fb89e2b0bca477",
+          "changelog": "fix: 登録APIのエラーをUTF-8のJSONで返す(日本語メッセージで接続が落ちていた)、uid形式を緩和",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Be82f11578659"
+        },
+        {
+          "versionName": "0.0.0+a9ae08c043bb",
+          "date": "2026-10-23T05:53:01Z",
+          "sourceCommit": "a9ae08c043bbe3a79c5e30d02dea387ac2aec159",
+          "changelog": "fix: 重複判定の公式データをpublic/dataから読む",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Ba9ae08c043bb"
+        },
+        {
+          "versionName": "0.0.0+0372c6761e83",
+          "date": "2026-10-23T05:45:39Z",
+          "sourceCommit": "0372c6761e83832580dc8f588f2c7a9e5c668683",
+          "changelog": "feat: 新図鑑で公式カード詳細URLを送信してユーザー独自のカードを登録できるように",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B0372c6761e83"
+        },
+        {
           "versionName": "0.0.0+0986389e81bd",
           "date": "2026-10-22T11:14:48Z",
           "sourceCommit": "0986389e81bd8c1c8aaeda0c963f66c932350e67",
@@ -675,8 +717,8 @@
           "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Ba7a695f16787"
         }
       ],
-      "latestVersion": "0.0.0+0986389e81bd",
-      "updatedAt": "2026-10-22T11:14:48Z"
+      "latestVersion": "0.0.0+5a1a9de9ae3f",
+      "updatedAt": "2026-10-23T07:04:06Z"
     },
     {
       "id": "research-zim",
