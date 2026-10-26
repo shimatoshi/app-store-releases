@@ -500,6 +500,104 @@
       "sourceRepository": "shimatoshi/dmonline2",
       "versions": [
         {
+          "versionName": "0.0.0+e837a09c527e",
+          "date": "2026-10-26T10:49:33Z",
+          "sourceCommit": "e837a09c527e7ad41961a6ec7e3699ce8c9d7c35",
+          "changelog": "fix: 相手のバトルゾーン/マナのカードは干渉モードでなくてもタップで寝かせられるように",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Be837a09c527e"
+        },
+        {
+          "versionName": "0.0.0+e4fbe4f33425",
+          "date": "2026-10-26T06:18:47Z",
+          "sourceCommit": "e4fbe4f33425856e4e753e286013179960f52836",
+          "changelog": "feat: PC(マウス)操作に対応(画像標準ドラッグの抑止・ホバー拡大・ホイール横スクロール・Esc・広い画面は上部メニュー)、お知らせ追記",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Be4fbe4f33425"
+        },
+        {
+          "versionName": "0.0.0+25cc84d2b2d6",
+          "date": "2026-10-26T06:14:10Z",
+          "sourceCommit": "25cc84d2b2d678e7d34974379e6c64a884435bc1",
+          "changelog": "feat: 多色カードはマナに自動で寝た状態で置く / ヘルプを章立てで全面拡充(デッキの組み方・対戦の始め方・バトルの進行・能力の解決・困ったとき)、ヘッダーにヘルプボタン",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B25cc84d2b2d6"
+        },
+        {
+          "versionName": "0.0.0+bb42b6a22be8",
+          "date": "2026-10-26T06:04:16Z",
+          "sourceCommit": "bb42b6a22be84b7df8d4016ec5266459411ce200",
+          "changelog": "docs: お知らせに10/26の更新内容を追記",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Bbb42b6a22be8"
+        },
+        {
+          "versionName": "0.0.0+2cde56576b3a",
+          "date": "2026-10-26T05:58:21Z",
+          "sourceCommit": "2cde56576b3a5c4fca5454cbe70c9795d41191ab",
+          "changelog": "fix: 一覧ウィンドウをタップ=選択・長押し=拡大に統一(重なりウィンドウでも移動しやすく)",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B2cde56576b3a"
+        },
+        {
+          "versionName": "0.0.0+185ced29ade0",
+          "date": "2026-10-26T05:55:14Z",
+          "sourceCommit": "185ced29ade0554a4be3bff52a373fe6baf16687",
+          "changelog": "feat: 重なったカードから任意の枚数を選んで移動(メテオバーン・スター進化の破壊等) / fix: チャット入力欄が盤面にはみ出す",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B185ced29ade0"
+        },
+        {
+          "versionName": "0.0.0+1146c4dfae8c",
+          "date": "2026-10-26T05:49:15Z",
+          "sourceCommit": "1146c4dfae8c71ae11df7fdf58c93e8ba3dabae7",
+          "changelog": "fix: 表裏反転を上フリックから横フリックに変更(攻撃・移動と競合しないよう)、ヘルプに追記",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B1146c4dfae8c"
+        },
+        {
+          "versionName": "0.0.0+a8a6f2d88da9",
+          "date": "2026-10-26T05:45:47Z",
+          "sourceCommit": "a8a6f2d88da9d0994b2070e43386c347da620a9c",
+          "changelog": "feat: シールドを表向きにできる/置く際に裏表を選択/シールドに重ねる(シールド・プラス)/上フリックで表裏反転",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Ba8a6f2d88da9"
+        },
+        {
+          "versionName": "0.0.0+ea45c0304990",
+          "date": "2026-10-26T05:37:31Z",
+          "sourceCommit": "ea45c030499045ae466439f296a501e48a1a1e71",
+          "changelog": "style: 共通Modal部品の導入、日本語フォント指定、btn-miniと小さい文字の拡大",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Bea45c0304990"
+        },
+        {
+          "versionName": "0.0.0+2fadcbc628e4",
+          "date": "2026-10-26T05:32:11Z",
+          "sourceCommit": "2fadcbc628e493abffca82ff57b55ade50c241ed",
+          "changelog": "style: 文明色を塗りつぶしではなく黒基調へのオーバーレイ(color-mix)に変更",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B2fadcbc628e4"
+        },
+        {
+          "versionName": "0.0.0+1db74fa08586",
+          "date": "2026-10-26T05:30:38Z",
+          "sourceCommit": "1db74fa08586ea26079e46a08199e45581175cbc",
+          "changelog": "feat: ナビを下部タブに移動(アイコン付き)、対戦中はヘッダー・タブを隠して盤面を最大化、ロビーへ戻るボタン追加、ログアウトはプロフィールへ",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B1db74fa08586"
+        },
+        {
+          "versionName": "0.0.0+eee54988b12f",
+          "date": "2026-10-26T05:27:33Z",
+          "sourceCommit": "eee54988b12f6f307681e214230664e8243d04ac",
+          "changelog": "style: 文明の絞り込みボタンに文明色を付与(共通化)、詳細に文明バッジ、ロゴをdmonlineに変更",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Beee54988b12f"
+        },
+        {
+          "versionName": "0.0.0+cc511536ca2e",
+          "date": "2026-10-26T05:23:45Z",
+          "sourceCommit": "cc511536ca2e62a73858452e4df123795b59aae7",
+          "changelog": "feat: 旧図鑑をメニューバーから外し、新図鑑に「旧図鑑を見る」を追加",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Bcc511536ca2e"
+        },
+        {
+          "versionName": "0.0.0+b00f7f11050a",
+          "date": "2026-10-26T05:22:20Z",
+          "sourceCommit": "b00f7f11050ac02fa107393dced1b49687a4d5b1",
+          "changelog": "style: 統一SVGアイコンセット(Icon.jsx)を追加し、操作バー・メニュー・送信・お知らせ等に適用",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Bb00f7f11050a"
+        },
+        {
           "versionName": "0.0.0+f8aa892fb7cc",
           "date": "2026-10-26T05:06:41Z",
           "sourceCommit": "f8aa892fb7cca843c94315ab824cf26763bf7c70",
@@ -780,8 +878,8 @@
           "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Ba7a695f16787"
         }
       ],
-      "latestVersion": "0.0.0+f8aa892fb7cc",
-      "updatedAt": "2026-10-26T05:06:41Z"
+      "latestVersion": "0.0.0+e837a09c527e",
+      "updatedAt": "2026-10-26T10:49:33Z"
     },
     {
       "id": "research-zim",
