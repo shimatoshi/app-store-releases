@@ -500,6 +500,20 @@
       "sourceRepository": "shimatoshi/dmonline2",
       "versions": [
         {
+          "versionName": "0.0.0+f8aa892fb7cc",
+          "date": "2026-10-26T05:06:41Z",
+          "sourceCommit": "f8aa892fb7cca843c94315ab824cf26763bf7c70",
+          "changelog": "style: 配色をトークンに統一(直書き色68→22種)、移動先ボタンを中立色化、絵文字を撤去",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Bf8aa892fb7cc"
+        },
+        {
+          "versionName": "0.0.0+d705fec42d24",
+          "date": "2026-10-26T04:51:16Z",
+          "sourceCommit": "d705fec42d246c57778064795b1cbb98a660da3e",
+          "changelog": "fix: viteを7系に戻す(8系だとVercelのnpm installが依存衝突で失敗するため)",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Bd705fec42d24"
+        },
+        {
           "versionName": "0.0.0+558cc57ca622",
           "date": "2026-10-23T10:50:20Z",
           "sourceCommit": "558cc57ca622f38683d83e67d27e7a28c49044a8",
@@ -766,8 +780,8 @@
           "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Ba7a695f16787"
         }
       ],
-      "latestVersion": "0.0.0+558cc57ca622",
-      "updatedAt": "2026-10-23T10:50:20Z"
+      "latestVersion": "0.0.0+f8aa892fb7cc",
+      "updatedAt": "2026-10-26T05:06:41Z"
     },
     {
       "id": "research-zim",
