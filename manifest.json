@@ -500,6 +500,13 @@
       "sourceRepository": "shimatoshi/dmonline2",
       "versions": [
         {
+          "versionName": "0.0.0+2fe9baba28fd",
+          "date": "2026-10-29T01:56:43Z",
+          "sourceCommit": "2fe9baba28fde59486abde355e76098f2c663372",
+          "changelog": "fix: デッキシートOCRの精度改善(罫線除去・二値化の前処理)と、同一カードのOCR使い回しで高速化",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B2fe9baba28fd"
+        },
+        {
           "versionName": "0.0.0+e837a09c527e",
           "date": "2026-10-26T10:49:33Z",
           "sourceCommit": "e837a09c527e7ad41961a6ec7e3699ce8c9d7c35",
@@ -878,8 +885,8 @@
           "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Ba7a695f16787"
         }
       ],
-      "latestVersion": "0.0.0+e837a09c527e",
-      "updatedAt": "2026-10-26T10:49:33Z"
+      "latestVersion": "0.0.0+2fe9baba28fd",
+      "updatedAt": "2026-10-29T01:56:43Z"
     },
     {
       "id": "research-zim",
