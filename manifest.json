@@ -500,6 +500,48 @@
       "sourceRepository": "shimatoshi/dmonline2",
       "versions": [
         {
+          "versionName": "0.0.0+1572d78fa580",
+          "date": "2026-11-02T06:36:23Z",
+          "sourceCommit": "1572d78fa580a36b5efa9af16632ec3d62bb866b",
+          "changelog": "feat: 攻撃された側の応答(ブロック・割り込み・そのまま通す)を追加。ダイレクトアタックは必ず確認する",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B1572d78fa580"
+        },
+        {
+          "versionName": "0.0.0+7380db0dca61",
+          "date": "2026-11-02T06:27:21Z",
+          "sourceCommit": "7380db0dca61a566e64c3c73f518198b0bd2e48d",
+          "changelog": "fix: 干渉中に相手の手札をバナーが塞ぐ・山札長押しでトップが見える・空の手札が潰れる・1人回しで視点とターンがずれる問題を修正",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B7380db0dca61"
+        },
+        {
+          "versionName": "0.0.0+1ae122e08314",
+          "date": "2026-11-02T06:08:00Z",
+          "sourceCommit": "1ae122e083147b87926f612b21cb63b1494f428e",
+          "changelog": "fix: 対戦同期の巻き戻り・重なりカード移動の不一致・カード削除APIの本人確認・準備やり直し後の自動ターン開始を修正",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B1ae122e08314"
+        },
+        {
+          "versionName": "0.0.0+0fdac1fe1d99",
+          "date": "2026-11-02T05:47:02Z",
+          "sourceCommit": "0fdac1fe1d997348d463d18cfa7b9ba05dff2c4f",
+          "changelog": "feat: 自分の部屋に対戦相手が入室したら、どの画面にいても通知(部屋へ移動ボタン・裏タブ時はブラウザ通知)",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B0fdac1fe1d99"
+        },
+        {
+          "versionName": "0.0.0+7bea48f00963",
+          "date": "2026-11-02T05:33:04Z",
+          "sourceCommit": "7bea48f009638d2dd3dab5cb343a01db5ca5478a",
+          "changelog": "feat: 予約部屋(開始・終了時刻の指定)。開始前は待機表示、終了時刻はゲーム決着後に続行/延長/終了を選択",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B7bea48f00963"
+        },
+        {
+          "versionName": "0.0.0+9fedbc3bec7d",
+          "date": "2026-11-02T04:47:06Z",
+          "sourceCommit": "9fedbc3bec7d11c7ad931c05e7cc785d702c6562",
+          "changelog": "fix: 0バイト画像をSWでキャッシュしない・サーバーも0バイトは404にする(画像キャッシュv5で破棄)",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B9fedbc3bec7d"
+        },
+        {
           "versionName": "0.0.0+2fe9baba28fd",
           "date": "2026-10-29T01:56:43Z",
           "sourceCommit": "2fe9baba28fde59486abde355e76098f2c663372",
@@ -885,8 +927,8 @@
           "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Ba7a695f16787"
         }
       ],
-      "latestVersion": "0.0.0+2fe9baba28fd",
-      "updatedAt": "2026-10-29T01:56:43Z"
+      "latestVersion": "0.0.0+1572d78fa580",
+      "updatedAt": "2026-11-02T06:36:23Z"
     },
     {
       "id": "research-zim",
