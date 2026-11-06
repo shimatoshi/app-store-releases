@@ -500,6 +500,20 @@
       "sourceRepository": "shimatoshi/dmonline2",
       "versions": [
         {
+          "versionName": "0.0.0+5b5845be179d",
+          "date": "2026-11-06T11:22:14Z",
+          "sourceCommit": "5b5845be179d158a6959ae4ff3889f08324a5540",
+          "changelog": "fix: 公式サイトの一時的な失敗でカード名の図鑑登録が502になる問題を修正",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B5b5845be179d"
+        },
+        {
+          "versionName": "0.0.0+3d93e04aaf0f",
+          "date": "2026-11-06T10:57:03Z",
+          "sourceCommit": "3d93e04aaf0f59f1421a400edae6614e788ada79",
+          "changelog": "fix: タッチで墓地・山札などの一覧をタップしても開かない問題を修正",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B3d93e04aaf0f"
+        },
+        {
           "versionName": "0.0.0+daf71895c2e2",
           "date": "2026-11-06T05:01:28Z",
           "sourceCommit": "daf71895c2e2e124f139a05a29357d6fefa02cc9",
@@ -948,8 +962,8 @@
           "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Ba7a695f16787"
         }
       ],
-      "latestVersion": "0.0.0+daf71895c2e2",
-      "updatedAt": "2026-11-06T05:01:28Z"
+      "latestVersion": "0.0.0+5b5845be179d",
+      "updatedAt": "2026-11-06T11:22:14Z"
     },
     {
       "id": "research-zim",
