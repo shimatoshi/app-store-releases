@@ -500,6 +500,27 @@
       "sourceRepository": "shimatoshi/dmonline2",
       "versions": [
         {
+          "versionName": "0.0.0+daf71895c2e2",
+          "date": "2026-11-06T05:01:28Z",
+          "sourceCommit": "daf71895c2e2e124f139a05a29357d6fefa02cc9",
+          "changelog": "fix: PCの左クリックをタップに戻し、拡大は右クリックにする",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Bdaf71895c2e2"
+        },
+        {
+          "versionName": "0.0.0+c1c85774ac19",
+          "date": "2026-11-06T04:40:29Z",
+          "sourceCommit": "c1c85774ac19052c2544824bef343ead7acd6527",
+          "changelog": "fix: 自分の裏向きシールドの中身が見えないようにする",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Bc1c85774ac19"
+        },
+        {
+          "versionName": "0.0.0+1056c2020d19",
+          "date": "2026-11-06T04:35:21Z",
+          "sourceCommit": "1056c2020d19bcbb6a38661c292e86f1c2bb30e9",
+          "changelog": "feat: 1デッキの1人回し・シールドのタップ・カード名だけの図鑑登録・PCのマウス操作を追加し、拡大表示を維持する",
+          "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2B1056c2020d19"
+        },
+        {
           "versionName": "0.0.0+1572d78fa580",
           "date": "2026-11-02T06:36:23Z",
           "sourceCommit": "1572d78fa580a36b5efa9af16632ec3d62bb866b",
@@ -927,8 +948,8 @@
           "releaseUrl": "https://github.com/shimatoshi/dmonline2/releases/tag/v0.0.0%2Ba7a695f16787"
         }
       ],
-      "latestVersion": "0.0.0+1572d78fa580",
-      "updatedAt": "2026-11-02T06:36:23Z"
+      "latestVersion": "0.0.0+daf71895c2e2",
+      "updatedAt": "2026-11-06T05:01:28Z"
     },
     {
       "id": "research-zim",
