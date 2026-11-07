@@ -204,6 +204,13 @@
       "sourceRepository": "shimatoshi/transit-pwa",
       "versions": [
         {
+          "versionName": "1.0.0+bd92be566267",
+          "date": "2026-11-07T07:00:02Z",
+          "sourceCommit": "bd92be5662671c4fa5064a1c12f12244cac06cc0",
+          "changelog": "Require a password to open the site",
+          "releaseUrl": "https://github.com/shimatoshi/transit-pwa/releases/tag/v1.0.0%2Bbd92be566267"
+        },
+        {
           "versionName": "1.0.0+753aabdb8853",
           "date": "2026-10-14T06:02:03Z",
           "sourceCommit": "753aabdb885340147d10ea0ecfe49b830dba08c8",
@@ -211,8 +218,8 @@
           "releaseUrl": "https://github.com/shimatoshi/transit-pwa/releases/tag/v1.0.0%2B753aabdb8853"
         }
       ],
-      "latestVersion": "1.0.0+753aabdb8853",
-      "updatedAt": "2026-10-14T06:02:03Z"
+      "latestVersion": "1.0.0+bd92be566267",
+      "updatedAt": "2026-11-07T07:00:02Z"
     },
     {
       "id": "news-pwa",
