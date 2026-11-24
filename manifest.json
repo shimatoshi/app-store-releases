@@ -1043,6 +1043,54 @@
       "category": "メディア",
       "versions": [
         {
+          "versionName": "1.10+build.13",
+          "date": "2026-11-24T09:52:59Z",
+          "sourceCommit": "d97d06bab42b992a5912d2fccee939b4e85a4376",
+          "changelog": "DLが途中で止まる・進捗通知が見えない問題を修正",
+          "releaseUrl": "https://github.com/shimatoshi/sniffer-browser/releases/tag/v1.10%2Bbuild.13",
+          "versionCode": 1000013,
+          "size": 290808,
+          "sha256": "0545a7a951c5f41a221860a9acdf9125d756b7445b60ab0945886cd981aabf3a",
+          "signingCertificateSha256": "a8a09b64c64d5ff67b06a7e7eeeddbc3e8d3792391a5166c1e698b691714e97e",
+          "apkUrl": "https://github.com/shimatoshi/sniffer-browser/releases/download/v1.10%2Bbuild.13/sniffer-browser-v1.10%2Bbuild.13.apk"
+        },
+        {
+          "versionName": "1.10+build.12",
+          "date": "2026-11-24T09:34:41Z",
+          "sourceCommit": "e1672c2bc8647cb896100927cffb4c92b21c4dfd",
+          "changelog": "gobie/agentのpip依存を撤廃し、root無し環境でも動くように",
+          "releaseUrl": "https://github.com/shimatoshi/sniffer-browser/releases/tag/v1.10%2Bbuild.12",
+          "versionCode": 1000012,
+          "size": 290808,
+          "sha256": "6513f9d014dc1832dba46f341ba419791d13323a80ce8e409437dfa2219983d0",
+          "signingCertificateSha256": "a8a09b64c64d5ff67b06a7e7eeeddbc3e8d3792391a5166c1e698b691714e97e",
+          "apkUrl": "https://github.com/shimatoshi/sniffer-browser/releases/download/v1.10%2Bbuild.12/sniffer-browser-v1.10%2Bbuild.12.apk"
+        },
+        {
+          "versionName": "1.10+build.11",
+          "date": "2026-11-24T09:30:45Z",
+          "sourceCommit": "0475be399e70984e37e95f1393d6e73ce2ccf72d",
+          "changelog": "ヘッドレスブラウザを無操作10分で自動停止、OSに殺された後の自動復活を廃止",
+          "releaseUrl": "https://github.com/shimatoshi/sniffer-browser/releases/tag/v1.10%2Bbuild.11",
+          "versionCode": 1000011,
+          "size": 290808,
+          "sha256": "cf933b6d7e06c9fa585b6bfb2de90f11f953b95fdc4a678e09a89ac074f1dc3f",
+          "signingCertificateSha256": "a8a09b64c64d5ff67b06a7e7eeeddbc3e8d3792391a5166c1e698b691714e97e",
+          "apkUrl": "https://github.com/shimatoshi/sniffer-browser/releases/download/v1.10%2Bbuild.11/sniffer-browser-v1.10%2Bbuild.11.apk"
+        },
+        {
+          "versionName": "1.10+build.10",
+          "date": "2026-11-24T09:17:40Z",
+          "sourceCommit": "ec79120be5abfa06cdd9d23201e292f389bcd4ce",
+          "changelog": "デバッグノートの鉛筆ボタンを撤去",
+          "releaseUrl": "https://github.com/shimatoshi/sniffer-browser/releases/tag/v1.10%2Bbuild.10",
+          "versionCode": 1000010,
+          "size": 290808,
+          "sha256": "8163b992f99c3e72638e931d542208dfdb8d064f58d26bb1a11ec65bd003e12d",
+          "signingCertificateSha256": "a8a09b64c64d5ff67b06a7e7eeeddbc3e8d3792391a5166c1e698b691714e97e",
+          "apkUrl": "https://github.com/shimatoshi/sniffer-browser/releases/download/v1.10%2Bbuild.10/sniffer-browser-v1.10%2Bbuild.10.apk"
+        },
+        {
           "versionName": "1.10+build.9",
           "date": "2026-10-22T05:55:37Z",
           "sourceCommit": "bdbaaa1b796325d5fb516465a5b59811903a82ed",
@@ -1145,8 +1193,8 @@
       ],
       "longDescription": "独自の広告ブロッカーと、ページ内video/audio要素の再生状態を監視するメディア検出、HLS(m3u8)動画のダウンロード機能を備える。全画面動画のネイティブPiP(ホーム移動で小窓化)とバックグラウンド再生にも対応する。それに加えてPWAのインストール/更新/事前ウォームアップ/スケジューリング、ホーム画面ウィジェット(検索バー・フィード記事)、音声検索、ユーザースクリプト実行、オフラインページ保存など、単純なブラウザを超えた機能を多数持つ。",
       "sourceRepository": "shimatoshi/sniffer-browser",
-      "latestVersion": "1.10+build.9",
-      "updatedAt": "2026-10-22T05:55:37Z"
+      "latestVersion": "1.10+build.13",
+      "updatedAt": "2026-11-24T09:52:59Z"
     },
     {
       "id": "weather-pwa",
